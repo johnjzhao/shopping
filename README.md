@@ -2,7 +2,7 @@
 
 
 ## Introduction
-This project is a front page copy of [svci](https://github.com/johnjzhao/svci) old version, but written with flask.
+This project is a web page copy of svci project, but written with Python.
 
 ## ScreenShot
 
