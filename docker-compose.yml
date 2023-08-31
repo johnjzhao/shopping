@@ -1,0 +1,49 @@
+version: "2.1"
+services:
+
+  db:
+     image: zhaojohn96/sqldb
+     command:
+      - --default_authentication_plugin=mysql_native_password
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+     volumes:
+       - db_data:/var/lib/mysql
+     restart: unless-stopped
+     environment:
+       MYSQL_ROOT_PASSWORD: root
+       MYSQL_DATABASE: svcishop
+
+  redis:
+    image: zhaojohn96/redis
+    restart: unless-stopped
+    volumes:
+      - redis-data:/data
+
+  esearch:
+    image: zhaojohn96/elasticsearch
+    restart: unless-stopped
+    environment:
+      discovery.type: single-node
+    volumes:
+      - esearch-data:/usr/share/elasticsearch/data
+
+  web:
+    build: .
+    container_name: web-app
+    depends_on:
+      - db
+      - redis
+      - esearch
+    environment:
+      DB_URI: mysql+pymysql://root:root@db:3306/svcishop?charset=utf8mb4
+      REDIS_URI: redis://redis:6379
+      ESEARCH_URI: esearch
+    restart: unless-stopped
+    ports:
+        - 8080:5000
+
+volumes:
+  db_data:
+  redis-data:
+  esearch-data:

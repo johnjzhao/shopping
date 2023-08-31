@@ -1,0 +1,2002 @@
+# Bulgarian (Bulgaria) translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-12-03 20:57+0200\n"
+"PO-Revision-Date: 2021-12-21 21:05+0200\n"
+"Last-Translator: dedal <grigor.kolev@gmail.com>\n"
+"Language: bg_BG\n"
+"Language-Team: bg_BG <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"X-Generator: Poedit 2.2.1\n"
+
+
+#: svcishop/account/forms.py:16 svcishop/dashboard/views/user.py:24
+msgid "Username"
+msgstr "Потребителско име"
+
+#: svcishop/account/forms.py:22
+msgid "The username should contain only a-z, A-Z and 0-9."
+msgstr "Потребителското име трябва да съдържа само a-z, A-Z и 0-9."
+
+#: svcishop/account/forms.py:27 svcishop/dashboard/views/user.py:25
+msgid "Email"
+msgstr "Имейл"
+
+#: svcishop/account/forms.py:30 svcishop/account/forms.py:61
+#: svcishop/account/forms.py:94 svcishop/dashboard/forms.py:83
+msgid "Password"
+msgstr "Парола"
+
+#: svcishop/account/forms.py:33 svcishop/account/forms.py:96
+msgid "Verify password"
+msgstr "Потвърди парола"
+
+#: svcishop/account/forms.py:34 svcishop/account/forms.py:99
+msgid "Passwords must match"
+msgstr "Паролите трябва да са еднакви"
+
+#: svcishop/account/forms.py:49
+msgid "Username already registered"
+msgstr "Потребителско име вече е регистрирано"
+
+#: svcishop/account/forms.py:53
+msgid "Email already registered"
+msgstr "Имейл вече е регистриран"
+
+#: svcishop/account/forms.py:60
+msgid "Username Or Email"
+msgstr "Потребителско име или имейл"
+
+#: svcishop/account/forms.py:79
+msgid "Unknown username"
+msgstr "Неизвестно потребителско име"
+
+#: svcishop/account/forms.py:83 svcishop/account/forms.py:115
+msgid "Invalid password"
+msgstr "Грешна парола"
+
+#: svcishop/account/forms.py:87
+msgid "User not activated"
+msgstr "Потребител не е активен"
+
+#: svcishop/account/forms.py:93
+msgid "Old Password"
+msgstr "Стара парола"
+
+#: svcishop/account/forms.py:124 svcishop/dashboard/forms.py:91
+msgid "Province"
+msgstr "Област"
+
+#: svcishop/account/forms.py:125
+msgid "City"
+msgstr "Град"
+
+#: svcishop/account/forms.py:126 svcishop/dashboard/forms.py:93
+msgid "District"
+msgstr "Окръг"
+
+#: svcishop/account/forms.py:127 svcishop/dashboard/forms.py:94
+msgid "Address"
+msgstr "Адрес"
+
+#: svcishop/account/forms.py:128
+msgid "Contact name"
+msgstr "Име за контакт"
+
+#: svcishop/account/forms.py:130 svcishop/dashboard/forms.py:96
+#: svcishop/templates/dashboard/user/detail.html:57
+msgid "Contact Phone"
+msgstr "Телефон за контакт"
+
+#: svcishop/account/views.py:28
+msgid "You are log in."
+msgstr "Успешно влизане."
+
+#: svcishop/account/views.py:39
+msgid "You are logged out."
+msgstr "Излязохте успешно."
+
+
+#: svcishop/account/views.py:54
+msgid "You are signed up."
+msgstr "Вие сте регистриран."
+
+#: svcishop/account/views.py:65
+msgid "You have changed password."
+msgstr "Сменихте паролата."
+
+#: svcishop/account/views.py:96
+msgid "Success edit address."
+msgstr "Успешно редактиране на адреса."
+
+#: svcishop/account/views.py:99
+msgid "Success add address."
+msgstr "Успешно добавен адрес."
+
+#: svcishop/api/checkout.py:5
+msgid "Checkout related operations"
+msgstr "Операции, свързани с касата"
+
+#: svcishop/api/checkout.py:10
+msgid "The checkout cartline id"
+msgstr "Номер на ред"
+
+#: svcishop/api/checkout.py:11
+msgid "The cart item num"
+msgstr "Брой артикул номер"
+
+#: svcishop/api/checkout.py:13
+msgid "The cart item title"
+msgstr "Заглавие на артикула в количката"
+
+#: svcishop/api/checkout.py:16
+msgid "The cart item variant"
+msgstr "Вариант на артикула в количката"
+
+#: svcishop/api/checkout.py:19
+msgid "The cart item product"
+msgstr "Продукти в количката"
+
+#: svcishop/api/checkout.py:22
+msgid "The cart item price"
+msgstr "Цената на артикула в количката"
+
+#: svcishop/api/checkout.py:25
+msgid "The cart item image"
+msgstr "Изображение на артикула в количката"
+
+#: svcishop/api/product.py:9
+msgid "Products related operations"
+msgstr "Операции, свързани с продукти"
+
+#: svcishop/api/product.py:11
+msgid "The variant"
+msgstr "Вариант"
+
+#: svcishop/api/product.py:12
+msgid "The quantity"
+msgstr "Количество"
+
+#: svcishop/api/product.py:17 svcishop/api/product.py:39
+#: svcishop/api/product.py:63
+msgid "The product identifier"
+msgstr "Идентификатор на продукт"
+
+#: svcishop/api/product.py:18 svcishop/api/product.py:40
+msgid "The product name"
+msgstr "Продукта няма име"
+
+#: svcishop/api/product.py:19 svcishop/api/product.py:41
+msgid "The product description"
+msgstr "Описание на продукт"
+
+#: svcishop/api/product.py:20 svcishop/api/product.py:42
+msgid "The product price"
+msgstr "Цена на продукта"
+
+#: svcishop/api/product.py:21
+msgid "The product first img"
+msgstr "Основна снимка на продукта"
+
+#: svcishop/api/product.py:27
+msgid "The variant identifier"
+msgstr "Идентификатор на вариант"
+
+#: svcishop/api/product.py:28
+msgid "The variant sku"
+msgstr "Складов № на варианта"
+
+#: svcishop/api/product.py:29
+msgid "The variant name"
+msgstr "Име на вариант"
+
+#: svcishop/api/product.py:30
+msgid "The variant price"
+msgstr "Цена на варианта"
+
+#: svcishop/api/product.py:32
+msgid "The variant stock"
+msgstr "Продажба на вариант"
+
+#: svcishop/api/product.py:43
+msgid "The product images"
+msgstr "Снимки на продукта"
+
+#: svcishop/api/product.py:45
+msgid "The product variant"
+msgstr "Вариантът на продукта"
+
+#: svcishop/api/product.py:64
+msgid "Product not found"
+msgstr "Продукта не е намерен"
+
+#: svcishop/checkout/forms.py:6
+msgid "ADD A NOTE TO YOUR ORDER"
+msgstr "ДОБАВЕТЕ БЕЛЕЖКА КЪМ ВАШАТА ПОРЪЧКА"
+
+#: svcishop/checkout/forms.py:10 svcishop/dashboard/forms.py:171
+msgid "Code"
+msgstr "Код"
+
+#: svcishop/checkout/views.py:118
+msgid "Your code is not correct"
+msgstr "Вашият код не е правилен"
+
+#: svcishop/dashboard/forms.py:46 svcishop/dashboard/forms.py:55
+#: svcishop/dashboard/forms.py:67 svcishop/dashboard/forms.py:101
+#: svcishop/dashboard/forms.py:108 svcishop/dashboard/forms.py:116
+#: svcishop/dashboard/forms.py:124 svcishop/dashboard/forms.py:133
+#: svcishop/dashboard/forms.py:156 svcishop/dashboard/forms.py:163
+#: svcishop/dashboard/forms.py:169 svcishop/dashboard/forms.py:190
+#: svcishop/dashboard/views/discount.py:16
+#: svcishop/dashboard/views/discount.py:70
+#: svcishop/dashboard/views/product.py:30
+#: svcishop/dashboard/views/product.py:67
+#: svcishop/dashboard/views/product.py:108
+#: svcishop/dashboard/views/product.py:152
+#: svcishop/dashboard/views/product.py:212
+#: svcishop/dashboard/views/site.py:24 svcishop/dashboard/views/site.py:58
+#: svcishop/dashboard/views/site.py:106 svcishop/dashboard/views/site.py:144
+#: svcishop/templates/dashboard/product/detail.html:96
+msgid "Title"
+msgstr "Заглавие"
+
+#: svcishop/dashboard/forms.py:47 svcishop/dashboard/forms.py:56
+#: svcishop/dashboard/views/site.py:59 svcishop/dashboard/views/site.py:107
+#: svcishop/templates/account/details.html:47
+#: svcishop/templates/dashboard/index.html:105
+#: svcishop/templates/orders/details.html:22
+#: svcishop/templates/orders/details.html:35
+#: svcishop/templates/public/style_guide.html:714
+msgid "Order"
+msgstr "Поръчки"
+
+#: svcishop/dashboard/forms.py:48
+msgid "End Point"
+msgstr "Крайна"
+
+#: svcishop/dashboard/forms.py:49
+msgid "Icon"
+msgstr "Икона"
+
+#: svcishop/dashboard/forms.py:50 svcishop/dashboard/forms.py:58
+#: svcishop/dashboard/forms.py:117 svcishop/dashboard/views/product.py:109
+msgid "Parent"
+msgstr "Родител"
+
+#: svcishop/dashboard/forms.py:51 svcishop/dashboard/forms.py:63
+#: svcishop/dashboard/forms.py:71 svcishop/dashboard/forms.py:77
+#: svcishop/dashboard/forms.py:87 svcishop/dashboard/forms.py:97
+#: svcishop/dashboard/forms.py:104 svcishop/dashboard/forms.py:112
+#: svcishop/dashboard/forms.py:120 svcishop/dashboard/forms.py:129
+#: svcishop/dashboard/forms.py:144 svcishop/dashboard/forms.py:149
+#: svcishop/dashboard/forms.py:159 svcishop/dashboard/forms.py:165
+#: svcishop/dashboard/forms.py:186 svcishop/dashboard/forms.py:195
+msgid "Submit"
+msgstr "Запиши"
+
+#: svcishop/dashboard/forms.py:57 svcishop/dashboard/views/site.py:146
+msgid "Url"
+msgstr "Линк"
+
+#: svcishop/dashboard/forms.py:59 svcishop/dashboard/views/site.py:60
+msgid "Position"
+msgstr "Позиция"
+
+#: svcishop/dashboard/forms.py:59
+msgid "none"
+msgstr "липсва"
+
+#: svcishop/dashboard/forms.py:59
+msgid "top"
+msgstr "горе"
+
+#: svcishop/dashboard/forms.py:59
+msgid "bottom"
+msgstr "долу"
+
+#: svcishop/dashboard/forms.py:60 svcishop/dashboard/forms.py:140
+#: svcishop/dashboard/forms.py:181 svcishop/dashboard/forms.py:193
+#: svcishop/dashboard/views/product.py:216
+#: svcishop/templates/dashboard/product/category.html:15
+#: svcishop/templates/dashboard/product/detail.html:56
+#: svcishop/templates/dashboard/product/list.html:26
+msgid "Category"
+msgstr "Категория"
+
+#: svcishop/dashboard/forms.py:61
+#: svcishop/templates/dashboard/product/collection.html:15
+msgid "Collection"
+msgstr "Колекция"
+
+#: svcishop/dashboard/forms.py:62
+#: svcishop/templates/dashboard/site/site_page.html:14
+msgid "Page"
+msgstr "Страница"
+
+#: svcishop/dashboard/forms.py:68 svcishop/dashboard/views/site.py:145
+msgid "Slug"
+msgstr "Slug"
+
+#: svcishop/dashboard/forms.py:69
+msgid "Content"
+msgstr "Съдържание"
+
+#: svcishop/dashboard/forms.py:70
+msgid "Is Visible"
+msgstr "Видим"
+
+#: svcishop/dashboard/forms.py:75
+msgid "Header"
+msgstr "Заглавие"
+
+#: svcishop/dashboard/forms.py:76 svcishop/dashboard/forms.py:141
+#: svcishop/templates/products/details.html:135
+msgid "Description"
+msgstr "Описание"
+
+#: svcishop/dashboard/forms.py:81
+msgid "User Name"
+msgstr "Потребител"
+
+#: svcishop/dashboard/forms.py:82
+msgid "E-mail"
+msgstr "Имейл"
+
+#: svcishop/dashboard/forms.py:84
+msgid "Is Activ"
+msgstr "Активен"
+
+#: svcishop/dashboard/forms.py:85
+msgid "Created at"
+msgstr "Създаден на"
+
+#: svcishop/dashboard/forms.py:86
+msgid "Updated at"
+msgstr "Актуализиран на"
+
+#: svcishop/dashboard/forms.py:92
+msgid "Sity"
+msgstr "Град"
+
+#: svcishop/dashboard/forms.py:95
+#: svcishop/templates/dashboard/user/detail.html:56
+msgid "Contact Name"
+msgstr "Име за контакт"
+
+#: svcishop/dashboard/forms.py:102 svcishop/dashboard/views/product.py:31
+msgid "Value"
+msgstr "Стойност"
+
+#: svcishop/dashboard/forms.py:103
+#: svcishop/templates/dashboard/site/index.html:27
+msgid "Product Types"
+msgstr "Тип на продукт"
+
+#: svcishop/dashboard/forms.py:109
+msgid "Products"
+msgstr "Продукти"
+
+#: svcishop/dashboard/forms.py:110 svcishop/dashboard/forms.py:118
+msgid "Current Image"
+msgstr "Текущо изображение"
+
+#: svcishop/dashboard/forms.py:111 svcishop/dashboard/forms.py:119
+msgid "Upload"
+msgstr "Качване"
+
+#: svcishop/dashboard/forms.py:125
+msgid "Has variant"
+msgstr "Има ли варианти"
+
+#: svcishop/dashboard/forms.py:126
+msgid "Is shipping required"
+msgstr "Изисква ли се доставка"
+
+#: svcishop/dashboard/forms.py:127
+msgid "Product atributes"
+msgstr "Атрибути"
+
+#: svcishop/dashboard/forms.py:128
+msgid "Variant Attributes"
+msgstr "Вариантни атрибути"
+
+#: svcishop/dashboard/forms.py:134
+msgid "Basic Price"
+msgstr "Основна цена"
+
+#: svcishop/dashboard/forms.py:135 svcishop/dashboard/views/product.py:213
+#: svcishop/templates/dashboard/product/detail.html:39
+#: svcishop/templates/dashboard/product/list.html:19
+msgid "On Sale"
+msgstr "В Продажба"
+
+#: svcishop/dashboard/forms.py:136
+msgid "Is Featured"
+msgstr "Бъдещ"
+
+#: svcishop/dashboard/forms.py:137
+#: svcishop/templates/dashboard/product/detail.html:47
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: svcishop/dashboard/forms.py:138 svcishop/dashboard/views/product.py:214
+#: svcishop/templates/dashboard/product/detail.html:50
+msgid "Sold Count"
+msgstr "Продадено Количество"
+
+#: svcishop/dashboard/forms.py:139
+#: svcishop/templates/dashboard/product/detail.html:53
+msgid "Review Count"
+msgstr "Брой прегледи"
+
+#: svcishop/dashboard/forms.py:142
+msgid "Images"
+msgstr "Снимки"
+
+#: svcishop/dashboard/forms.py:143
+msgid "Atributes"
+msgstr "Атрибути"
+
+#: svcishop/dashboard/forms.py:148
+msgid "Choose A Product Type"
+msgstr "Изберете тип на продукт"
+
+#: svcishop/dashboard/forms.py:154
+#: svcishop/templates/dashboard/order/detail.html:51
+#: svcishop/templates/dashboard/product/detail.html:95
+msgid "SKU"
+msgstr "Складов №"
+
+#: svcishop/dashboard/forms.py:157
+msgid "Price override"
+msgstr "Промени цена"
+
+#: svcishop/dashboard/forms.py:158 svcishop/templates/checkout/cart.html:26
+#: svcishop/templates/dashboard/product/detail.html:97
+#: svcishop/templates/orders/_ordered_items_table.html:12
+#: svcishop/templates/public/style_guide.html:573
+msgid "Quantity"
+msgstr "Количество"
+
+#: svcishop/dashboard/forms.py:164 svcishop/dashboard/views/product.py:215
+#: svcishop/dashboard/views/site.py:25
+#: svcishop/templates/checkout/cart.html:29
+#: svcishop/templates/dashboard/product/detail.html:43
+#: svcishop/templates/orders/_ordered_items_table.html:17
+#: svcishop/templates/products/_filters.html:49
+msgid "Price"
+msgstr "Цена"
+
+#: svcishop/dashboard/forms.py:170 svcishop/dashboard/views/discount.py:17
+#: svcishop/templates/dashboard/product/product_create_step2.html:17
+msgid "Type"
+msgstr "Тип"
+
+#: svcishop/dashboard/forms.py:172
+msgid "Usage limit"
+msgstr "Лимит за използване"
+
+#: svcishop/dashboard/forms.py:173
+msgid "how many times can be used"
+msgstr "колко пъти може да се използва"
+
+#: svcishop/dashboard/forms.py:175 svcishop/dashboard/views/discount.py:19
+msgid "Used"
+msgstr "Използван"
+
+#: svcishop/dashboard/forms.py:176
+msgid "Validity Period"
+msgstr "Период на валидност"
+
+#: svcishop/dashboard/forms.py:177 svcishop/dashboard/forms.py:191
+msgid "Discount value type"
+msgstr "Тип отстъпка"
+
+#: svcishop/dashboard/forms.py:178 svcishop/dashboard/forms.py:192
+msgid "Discount value"
+msgstr "Стойност на отстъпката"
+
+#: svcishop/dashboard/forms.py:179
+msgid "Limit"
+msgstr "Лимит"
+
+#: svcishop/dashboard/forms.py:181
+msgid "when type is category, need to select"
+msgstr "когато типът е категория, трябва да изберете"
+
+#: svcishop/dashboard/forms.py:184 svcishop/dashboard/forms.py:194
+#: svcishop/templates/checkout/cart.html:23
+#: svcishop/templates/dashboard/order/detail.html:50
+#: svcishop/templates/orders/_ordered_items_table.html:7
+msgid "Product"
+msgstr "Продукт"
+
+#: svcishop/dashboard/forms.py:184
+msgid "when type is product, need to select"
+msgstr "когато продукта има тип, трябва да изберете"
+
+#: svcishop/dashboard/views/discount.py:15
+#: svcishop/dashboard/views/discount.py:69
+#: svcishop/dashboard/views/order.py:28
+#: svcishop/dashboard/views/product.py:29
+#: svcishop/dashboard/views/product.py:67
+#: svcishop/dashboard/views/product.py:107
+#: svcishop/dashboard/views/product.py:151
+#: svcishop/dashboard/views/product.py:211
+#: svcishop/dashboard/views/site.py:23 svcishop/dashboard/views/site.py:57
+#: svcishop/dashboard/views/site.py:105 svcishop/dashboard/views/site.py:143
+#: svcishop/dashboard/views/user.py:23
+#: svcishop/templates/dashboard/product/detail.html:94
+#: svcishop/templates/dashboard/user/detail.html:55
+#: svcishop/templates/dashboard/user/detail.html:80
+msgid "ID"
+msgstr "ID"
+
+#: svcishop/dashboard/views/discount.py:18
+msgid "Usage Limit"
+msgstr "Лимит за използване"
+
+#: svcishop/dashboard/views/discount.py:20
+#: svcishop/dashboard/views/discount.py:71
+msgid "Discount Type"
+msgstr "Тип отстъпка"
+
+#: svcishop/dashboard/views/discount.py:21
+#: svcishop/dashboard/views/discount.py:72
+msgid "Discount Value"
+msgstr "Стойност на отстъпката"
+
+#: svcishop/dashboard/views/discount.py:24
+#: svcishop/templates/dashboard/discount/voucher.html:15
+msgid "Voucher"
+msgstr "Ваучер"
+
+#: svcishop/dashboard/views/discount.py:28
+msgid "vouchers"
+msgstr "ваучери"
+
+#: svcishop/dashboard/views/discount.py:75
+#: svcishop/templates/dashboard/discount/sale.html:14
+#: svcishop/templates/products/_items.html:14
+#: svcishop/templates/public/style_guide.html:841
+msgid "Sale"
+msgstr "Разпродажба"
+
+#: svcishop/dashboard/views/discount.py:79
+msgid "sales"
+msgstr "разпродажби"
+
+#: svcishop/dashboard/views/order.py:29
+msgid "Identity"
+msgstr "Идентификация"
+
+#: svcishop/dashboard/views/order.py:30
+#: svcishop/templates/account/details.html:56
+#: svcishop/templates/dashboard/order/detail.html:22
+#: svcishop/templates/dashboard/order/list.html:16
+#: svcishop/templates/dashboard/user/detail.html:81
+#: svcishop/templates/public/style_guide.html:723
+msgid "Status"
+msgstr "Статус"
+
+#: svcishop/dashboard/views/order.py:31
+#: svcishop/templates/checkout/_subtotal_table.html:4
+#: svcishop/templates/checkout/details.html:101
+#: svcishop/templates/dashboard/order/detail.html:106
+#: svcishop/templates/dashboard/user/detail.html:82
+#: svcishop/templates/orders/_ordered_items_table.html:101
+msgid "Total"
+msgstr "Тотал"
+
+#: svcishop/dashboard/views/order.py:32
+msgid "User"
+msgstr "Потребител"
+
+#: svcishop/dashboard/views/order.py:33
+#: svcishop/dashboard/views/product.py:67
+#: svcishop/dashboard/views/product.py:110
+#: svcishop/dashboard/views/product.py:155
+#: svcishop/dashboard/views/site.py:26
+#: svcishop/templates/dashboard/order/detail.html:14
+#: svcishop/templates/dashboard/user/detail.html:83
+msgid "Created At"
+msgstr "Създаден на"
+
+#: svcishop/dashboard/views/product.py:32
+#: svcishop/templates/dashboard/product/detail.html:59
+msgid "ProductType"
+msgstr "Тип на продукт"
+
+#: svcishop/dashboard/views/product.py:35
+msgid "Product Attribute"
+msgstr "Атрибут на продукт"
+
+#: svcishop/dashboard/views/product.py:69
+msgid "Product Collection"
+msgstr "Колекция от продукти"
+
+#: svcishop/dashboard/views/product.py:113
+msgid "Product Category"
+msgstr "Категория на продукта"
+
+#: svcishop/dashboard/views/product.py:153
+msgid "Has Variants"
+msgstr "Има варианти"
+
+#: svcishop/dashboard/views/product.py:154
+msgid "Is Shipping Required"
+msgstr "Изисква ли се доставка"
+
+#: svcishop/dashboard/views/product.py:158
+#: svcishop/templates/dashboard/product/product_type.html:15
+msgid "Product Type"
+msgstr "Вид продукт"
+
+#: svcishop/dashboard/views/site.py:29
+#: svcishop/templates/dashboard/order/detail.html:35
+#: svcishop/templates/dashboard/site/shipping_method.html:15
+msgid "Shipping Method"
+msgstr "Метод за доставка"
+
+#: svcishop/dashboard/views/site.py:61 svcishop/dashboard/views/site.py:110
+msgid "Parent Id"
+msgstr "ID на родител"
+
+#: svcishop/dashboard/views/site.py:64
+msgid "Site Menus"
+msgstr "Меню на сайта"
+
+#: svcishop/dashboard/views/site.py:108
+msgid "Endpoint"
+msgstr "Крайна точка"
+
+#: svcishop/dashboard/views/site.py:109
+msgid "Icon class"
+msgstr "Клас икона"
+
+#: svcishop/dashboard/views/site.py:113
+msgid "Dashboard Menus"
+msgstr "Менюта на таблото"
+
+#: svcishop/dashboard/views/site.py:147
+msgid "Is Visiable"
+msgstr "Видим"
+
+#: svcishop/dashboard/views/site.py:150
+msgid "Site Pages"
+msgstr "Страници на сайта"
+
+#: svcishop/dashboard/views/site.py:183
+msgid "The plugin is enabled, Please restart svci-shop now!"
+msgstr "Плъгинът е активиран. Моля, рестартирайте магазина сега!"
+
+#: svcishop/dashboard/views/site.py:191
+msgid "The plugin is disabled, Please restart svci-shop now!"
+msgstr "Плъгинът е деактивиран. Моля, рестартирайте магазина сега!"
+
+#: svcishop/dashboard/views/site.py:219
+msgid "Settings saved."
+msgstr "Настройките са запазени."
+
+#: svcishop/dashboard/views/user.py:26
+msgid "Is Active"
+msgstr "Активен"
+
+#: svcishop/dashboard/views/user.py:29
+msgid "User List"
+msgstr "Списък  потребители"
+
+#: svcishop/order/views.py:34
+msgid "This is not your order!"
+msgstr "Това не е вашата поръчка!"
+
+#: svcishop/order/views.py:41
+msgid "This Order Can Not Pay"
+msgstr "Тази поръчка не може да се плати"
+
+#: svcishop/templates/base.html:6
+msgid "SVCI Business"
+msgstr "магазин"
+
+#: svcishop/templates/base.html:39 svcishop/templates/base.html:177
+#: svcishop/templates/dashboard/layout.html:22
+msgid "Dashboard"
+msgstr "Табло за управление"
+
+#: svcishop/templates/base.html:46
+msgid "Your Account"
+msgstr "Вашия акаунт"
+
+#: svcishop/templates/base.html:51
+msgid "Log Out"
+msgstr "Излез"
+
+#: svcishop/templates/account/login.html:15 svcishop/templates/base.html:57
+#: svcishop/templates/base.html:195
+msgid "Register"
+msgstr "Регистрирай"
+
+#: svcishop/templates/account/login.html:3
+#: svcishop/templates/account/login.html:20
+#: svcishop/templates/account/partials/login_form.html:11
+#: svcishop/templates/account/signup.html:13 svcishop/templates/base.html:62
+#: svcishop/templates/base.html:200
+msgid "Log in"
+msgstr "Вход"
+
+#: svcishop/templates/base.html:105 svcishop/templates/base.html:170
+msgid "Your Cart"
+msgstr "Вашата кошница"
+
+#: svcishop/templates/base.html:164
+#: svcishop/templates/dashboard/order/detail.html:25
+msgid "Account"
+msgstr "Профил"
+
+#: svcishop/templates/account/details.html:12
+#: svcishop/templates/base.html:183 svcishop/templates/orders/details.html:17
+msgid "Your account"
+msgstr "Вашия профил"
+
+#: svcishop/templates/base.html:189
+msgid "Log out"
+msgstr "Излез"
+
+#: svcishop/templates/account/address_edit.html:14
+#: svcishop/templates/public/style_guide.html:612
+msgid "Your profile"
+msgstr "Вашия профил"
+
+#: svcishop/templates/account/address_edit.html:30
+#: svcishop/templates/public/style_guide.html:617
+msgid "Edit address"
+msgstr "Редактирай адрес"
+
+#: svcishop/templates/account/address_edit.html:30
+msgid "New address"
+msgstr "Нов адрес"
+
+#: svcishop/templates/account/address_edit.html:37
+msgid "Save changes"
+msgstr "Запази промени"
+
+#: svcishop/templates/account/details.html:9
+#: svcishop/templates/checkout/cart.html:7
+#: svcishop/templates/orders/details.html:12
+#: svcishop/templates/public/page.html:13
+#: plugin_example/conversations/templates/message_layout.html:7
+msgid "Home"
+msgstr "Начало"
+
+#: svcishop/templates/account/details.html:19
+msgid "My account"
+msgstr "Профили"
+
+#: svcishop/templates/account/details.html:23
+#: svcishop/templates/public/style_guide.html:668
+msgid "Recent Orders"
+msgstr "Последни поръчки"
+
+#: svcishop/templates/account/details.html:29
+#: svcishop/templates/account/details.html:107
+#: svcishop/templates/public/style_guide.html:673
+msgid "Change password"
+msgstr "Промени парола"
+
+#: svcishop/templates/account/details.html:35
+#: svcishop/templates/public/style_guide.html:678
+msgid "Addresses book"
+msgstr "Адреси"
+
+#: svcishop/templates/account/details.html:50
+#: svcishop/templates/public/style_guide.html:717
+msgid "Date"
+msgstr "Дата"
+
+#: svcishop/templates/account/details.html:53
+#: svcishop/templates/public/style_guide.html:720
+msgid "Summary"
+msgstr "Общо"
+
+#: svcishop/templates/account/details.html:80
+#: svcishop/templates/public/style_guide.html:744
+#: svcishop/templates/public/style_guide.html:765
+msgid "Details"
+msgstr "Детайли"
+
+#: svcishop/templates/account/details.html:93
+msgid "There are not any completed orders yet."
+msgstr "Потребителя няма поръчки."
+
+#: svcishop/templates/account/details.html:122
+#: svcishop/templates/dashboard/discount/sale.html:13
+#: svcishop/templates/dashboard/discount/voucher.html:14
+#: svcishop/templates/dashboard/list.html:45
+#: svcishop/templates/dashboard/product/attribute.html:14
+#: svcishop/templates/dashboard/product/category.html:14
+#: svcishop/templates/dashboard/product/collection.html:14
+#: svcishop/templates/dashboard/product/detail.html:16
+#: svcishop/templates/dashboard/product/detail.html:110
+#: svcishop/templates/dashboard/product/product_type.html:14
+#: svcishop/templates/dashboard/product/variant.html:14
+#: svcishop/templates/dashboard/site/shipping_method.html:14
+#: svcishop/templates/dashboard/site/site_menu.html:14
+#: svcishop/templates/dashboard/site/site_page.html:14
+#: svcishop/templates/dashboard/user/detail.html:31
+#: svcishop/templates/dashboard/user/detail.html:67
+#: svcishop/templates/public/style_guide.html:791
+msgid "Edit"
+msgstr "Редактирай"
+
+#: svcishop/templates/account/details.html:135
+#: svcishop/templates/public/style_guide.html:802
+msgid "Remove Address"
+msgstr "Премахни адрес"
+
+#: svcishop/templates/account/details.html:138
+#: svcishop/templates/public/style_guide.html:805
+msgid "Cancel"
+msgstr "Отказ"
+
+#: svcishop/templates/account/details.html:148
+msgid "New Address"
+msgstr "Нов адрес"
+
+#: svcishop/templates/account/login.html:10
+msgid "Don't have an account yet?"
+msgstr "Още нямате профил?"
+
+#: svcishop/templates/account/signup.html:10
+msgid "Already have an account?"
+msgstr "Още нямате профил?"
+
+#: svcishop/templates/account/signup.html:20
+#: svcishop/templates/account/signup.html:28
+msgid "Create an account"
+msgstr "Създай акаунт"
+
+#: svcishop/templates/account/partials/login_form.html:14
+msgid "Forgot password?"
+msgstr "Забравена парола?"
+
+#: svcishop/templates/checkout/_subtotal_table.html:5
+#: svcishop/templates/public/cart_dropdown.html:31
+msgid "Shipment calculated at checkout"
+msgstr "Пратката се изчислява при плащане"
+
+#: svcishop/templates/checkout/cart.html:3
+msgid "Your cart"
+msgstr "Вашата кошница"
+
+#: svcishop/templates/checkout/cart.html:8
+msgid "Cart"
+msgstr "Кошница"
+
+#: svcishop/templates/checkout/cart.html:15
+msgid "Product has been removed from cart"
+msgstr "Продукта беше премахнат от кошницата"
+
+#: svcishop/templates/checkout/cart.html:75
+#: svcishop/templates/checkout/details.html:3
+#: svcishop/templates/checkout/details.html:16
+#: svcishop/templates/public/cart_dropdown.html:50
+msgid "Checkout"
+msgstr "Поръчай"
+
+#: svcishop/templates/checkout/cart.html:82
+#: svcishop/templates/public/cart_dropdown.html:55
+msgid "There are no products in your shopping cart."
+msgstr "Няма поръчки в кошницата."
+
+#: svcishop/templates/checkout/cart.html:83
+#: svcishop/templates/public/cart_dropdown.html:57
+msgid "Check out our sales"
+msgstr "Вижте поръчката"
+
+#: svcishop/templates/checkout/details.html:8
+msgid "Easy and secure!"
+msgstr "Лесно и сигурно!"
+
+#: svcishop/templates/checkout/details.html:47
+#: svcishop/templates/dashboard/order/detail.html:92
+#: svcishop/templates/orders/_ordered_items_table.html:52
+msgid "Subtotal"
+msgstr "Междинна сума"
+
+#: svcishop/templates/checkout/details.html:57
+msgid "Shipment"
+msgstr "Доставка"
+
+#: svcishop/templates/checkout/details.html:72
+msgid "Promo code"
+msgstr "Промо код"
+
+#: svcishop/templates/checkout/details.html:78
+msgid "Remove"
+msgstr "Премахни"
+
+#: svcishop/templates/checkout/note.html:8
+#: svcishop/templates/checkout/shipping.html:8
+#: svcishop/templates/orders/_ordered_items_table.html:117
+msgid "Shipping address"
+msgstr "Адрес за доставка"
+
+#: svcishop/templates/checkout/note.html:10
+msgid "Select other address"
+msgstr "Избери друг адрес"
+
+#: svcishop/templates/checkout/note.html:15
+msgid "Select other shipping method"
+msgstr "Избери друг метод за доставка"
+
+#: svcishop/templates/checkout/shipping.html:27
+msgid "Enter a new address"
+msgstr "Добави адрес"
+
+#: svcishop/templates/checkout/shipping.html:42
+msgid "Shipping method"
+msgstr "Метод за доставка"
+
+#: svcishop/templates/checkout/shipping.html:60
+msgid "Continue"
+msgstr "Продължи"
+
+#: svcishop/templates/dashboard/index.html:17
+msgid "Sales"
+msgstr "Продажби"
+
+#: svcishop/templates/dashboard/index.html:18
+msgid "today and"
+msgstr "днес и"
+
+#: svcishop/templates/dashboard/index.html:19
+msgid "total"
+msgstr "общо"
+
+#: svcishop/templates/dashboard/index.html:29
+msgid "Members"
+msgstr "Потребители"
+
+#: svcishop/templates/dashboard/index.html:30
+msgid "new in"
+msgstr "нови в"
+
+#: svcishop/templates/dashboard/index.html:31
+msgid "accounts"
+msgstr "профили"
+
+#: svcishop/templates/dashboard/index.html:43
+msgid "Orders are ready to fulfill"
+msgstr "Поръчките за изпълнение"
+
+#: svcishop/templates/dashboard/index.html:49
+msgid "Payments to capture"
+msgstr "Плащания за получаване"
+
+#: svcishop/templates/dashboard/index.html:55
+msgid "products is on sale"
+msgstr "продукта не е в продажба"
+
+#: svcishop/templates/dashboard/index.html:64
+msgid "Top Products"
+msgstr "Топ Продукти"
+
+#: svcishop/templates/dashboard/index.html:82
+msgid "Ordered"
+msgstr "Поръчани"
+
+#: svcishop/templates/dashboard/index.html:98
+msgid "Activity"
+msgstr "Активност"
+
+#: svcishop/templates/dashboard/index.html:105
+msgid "was"
+msgstr "беше"
+
+#: svcishop/templates/dashboard/index.html:110
+msgid "There is no recent activity"
+msgstr "Няма скорошна активност"
+
+#: svcishop/templates/dashboard/layout.html:25
+msgid "Front Site"
+msgstr "Сайт"
+
+#: svcishop/templates/dashboard/discount/sale.html:13
+#: svcishop/templates/dashboard/discount/voucher.html:14
+#: svcishop/templates/dashboard/list.html:25
+#: svcishop/templates/dashboard/product/attribute.html:14
+#: svcishop/templates/dashboard/product/category.html:14
+#: svcishop/templates/dashboard/product/collection.html:14
+#: svcishop/templates/dashboard/product/detail.html:87
+#: svcishop/templates/dashboard/product/list.html:45
+#: svcishop/templates/dashboard/product/product_type.html:14
+#: svcishop/templates/dashboard/product/variant.html:14
+#: svcishop/templates/dashboard/site/shipping_method.html:14
+#: svcishop/templates/dashboard/site/site_menu.html:14
+#: svcishop/templates/dashboard/site/site_page.html:14
+msgid "Create"
+msgstr "Създай"
+
+#: svcishop/templates/dashboard/list.html:36
+#: svcishop/templates/dashboard/order/list.html:44
+#: svcishop/templates/dashboard/product/detail.html:99
+#: svcishop/templates/dashboard/product/list.html:58
+#: svcishop/templates/dashboard/site/plugin.html:17
+#: svcishop/templates/dashboard/user/detail.html:58
+#: svcishop/templates/dashboard/user/detail.html:84
+#: svcishop/templates/dashboard/user/list.html:35
+msgid "Operation"
+msgstr "Операция"
+
+#: svcishop/templates/dashboard/list.html:47
+#: svcishop/templates/dashboard/product/detail.html:18
+#: svcishop/templates/dashboard/product/detail.html:112
+#: svcishop/templates/dashboard/user/detail.html:33
+msgid "Delete"
+msgstr "Изтрий"
+
+#: svcishop/templates/dashboard/order/detail.html:23
+msgid "Payment Status"
+msgstr "Статус на плащане"
+
+#: svcishop/templates/dashboard/order/detail.html:24
+msgid "Payment Due"
+msgstr "Чака плащане"
+
+#: svcishop/templates/dashboard/order/detail.html:29
+msgid "Shipping Address"
+msgstr "Адрес за доставка"
+
+#: svcishop/templates/dashboard/order/detail.html:49
+msgid "Qty"
+msgstr "Брой"
+
+#: svcishop/templates/dashboard/order/detail.html:52
+msgid "Unit Price"
+msgstr "Цена на брой"
+
+#: svcishop/templates/dashboard/order/detail.html:53
+msgid "Subtotal)"
+msgstr "Междинна сума"
+
+#: svcishop/templates/dashboard/order/detail.html:81
+msgid "Payment Method"
+msgstr "Метод за доставка"
+
+#: svcishop/templates/dashboard/order/detail.html:82
+msgid "Order Note"
+msgstr "Бележка към поръчка"
+
+#: svcishop/templates/dashboard/order/detail.html:96
+#: svcishop/templates/orders/_ordered_items_table.html:69
+msgid "Shipping"
+msgstr "Доставка"
+
+#: svcishop/templates/dashboard/order/detail.html:101
+msgid "Discount"
+msgstr "Отстъпка"
+
+#: svcishop/templates/dashboard/order/detail.html:121
+msgid "Send Order"
+msgstr "Изпрати поръчка"
+
+#: svcishop/templates/dashboard/order/detail.html:126
+msgid "Draft Order"
+msgstr "Платена"
+
+#: svcishop/templates/dashboard/order/list.html:10
+msgid "Order List"
+msgstr "Списък с поръчки"
+
+#: svcishop/templates/dashboard/order/list.html:53
+#: svcishop/templates/dashboard/product/list.html:67
+#: svcishop/templates/dashboard/user/detail.html:92
+#: svcishop/templates/dashboard/user/list.html:44
+msgid "View"
+msgstr "Покажи"
+
+#: svcishop/templates/dashboard/product/detail.html:62
+msgid "Created"
+msgstr "Създаден на"
+
+#: svcishop/templates/dashboard/product/detail.html:68
+msgid "Product Description"
+msgstr "Описание на продукт"
+
+#: svcishop/templates/dashboard/product/detail.html:83
+msgid "Variants"
+msgstr "Има варианти"
+
+#: svcishop/templates/dashboard/product/detail.html:98
+msgid "PriceOverride"
+msgstr "Промени цена"
+
+#: svcishop/templates/dashboard/product/list.html:12
+msgid "Product List "
+msgstr "Списък с продукти "
+
+#: svcishop/templates/dashboard/product/list.html:20
+msgid "Yes"
+msgstr "Да"
+
+#: svcishop/templates/dashboard/product/list.html:21
+msgid "No"
+msgstr "Не"
+
+#: svcishop/templates/dashboard/product/list.html:41
+msgid "Query"
+msgstr "Заявка"
+
+#: svcishop/templates/dashboard/product/product_create_step1.html:14
+msgid "Create Product Step First"
+msgstr "Създаване на продукт, стъпка 1"
+
+#: svcishop/templates/dashboard/product/product_create_step2.html:12
+msgid "Create Product Step 2"
+msgstr "Създаване на продукт, стъпка 2"
+
+#: svcishop/templates/dashboard/product/product_edit.html:14
+msgid "Edit Product"
+msgstr "Редактирай продукт"
+
+#: svcishop/templates/dashboard/product/variant.html:15
+msgid "Variant"
+msgstr "Вариант"
+
+#: svcishop/templates/dashboard/site/dashboard_menu.html:14
+msgid "Create Dashboard Menu"
+msgstr "Добави меню в панела"
+
+#: svcishop/templates/dashboard/site/index.html:7
+msgid "Product Settings"
+msgstr "Настройки на продукти"
+
+#: svcishop/templates/dashboard/site/index.html:14
+msgid "Attributes"
+msgstr "Атрибути"
+
+#: svcishop/templates/dashboard/site/index.html:16
+msgid "Determine attributes used to create product types"
+msgstr "Определете атрибути, използвани за създаване на типове продукти"
+
+#: svcishop/templates/dashboard/site/index.html:29
+msgid "Define types of products you sell"
+msgstr "Определете видовете продукти, които продавате"
+
+#: svcishop/templates/dashboard/site/index.html:40
+msgid "Shipping Methods"
+msgstr "Методи за доставка"
+
+#: svcishop/templates/dashboard/site/index.html:42
+msgid "Manage how you ship out orders"
+msgstr "Управлявайте как изпращате поръчки"
+
+#: svcishop/templates/dashboard/site/index.html:57
+msgid "Pages"
+msgstr "Страници"
+
+#: svcishop/templates/dashboard/site/index.html:59
+msgid "Manage and add additional pages"
+msgstr "Управлявайте и добавяйте допълнителни страници"
+
+#: svcishop/templates/dashboard/site/index.html:70
+msgid "Navigations"
+msgstr "Навигация"
+
+#: svcishop/templates/dashboard/site/index.html:72
+msgid "Define how users can navigate through your store"
+msgstr "Определете как потребителите могат да навигират във вашия магазин"
+
+#: svcishop/templates/dashboard/site/index.html:83
+msgid "Dashboard Navigations"
+msgstr "Навигация в таблото"
+
+#: svcishop/templates/dashboard/site/index.html:85
+msgid "Define how managers can navigate dashboard"
+msgstr "Определете как мениджърите могат да навигират в таблото за управление"
+
+#: svcishop/templates/dashboard/site/index.html:96
+msgid "Plugins"
+msgstr "Добавки"
+
+#: svcishop/templates/dashboard/site/index.html:98
+msgid "View and update your plugins and their settings."
+msgstr "Преглеждайте и актуализирайте вашите плъгини и техните настройки."
+
+#: svcishop/templates/dashboard/site/index.html:109
+msgid "Sites Settings"
+msgstr "Настройки на сайта"
+
+#: svcishop/templates/dashboard/site/index.html:111
+msgid "View and update your site settings"
+msgstr "Преглеждайте и актуализирайте настройките на вашия сайт"
+
+#: svcishop/templates/dashboard/site/plugin.html:9
+msgid "Manage Plugins"
+msgstr "Управление на добавки"
+
+#: svcishop/templates/dashboard/site/plugin.html:15
+msgid "Plugin"
+msgstr "Добавки"
+
+#: svcishop/templates/dashboard/site/plugin.html:16
+msgid "Info"
+msgstr "Информация"
+
+#: svcishop/templates/dashboard/site/plugin.html:32
+msgid "Disable"
+msgstr "Изключи"
+
+#: svcishop/templates/dashboard/site/plugin.html:37
+msgid "Enable"
+msgstr "Включи"
+
+#: svcishop/templates/dashboard/site/settings.html:13
+msgid "Site Settings"
+msgstr "Настройки на сайт"
+
+#: svcishop/templates/dashboard/site/settings.html:29
+msgid "Save"
+msgstr "Запис"
+
+#: svcishop/templates/dashboard/site/site_menu.html:14
+msgid "Site Menu"
+msgstr "Меню на сайт"
+
+#: svcishop/templates/dashboard/user/detail.html:45
+msgid "Addresses"
+msgstr "Адреси"
+
+#: svcishop/templates/dashboard/user/detail.html:46
+msgid "Orders"
+msgstr "Поръчки"
+
+#: svcishop/templates/dashboard/user/detail.html:72
+msgid "This user have not add address"
+msgstr "Този потребител не е добавил адрес"
+
+#: svcishop/templates/dashboard/user/detail.html:99
+msgid "This user have not create orders"
+msgstr "Потребителя няма поръчки"
+
+#: svcishop/templates/dashboard/user/edit.html:13
+msgid "Edit User"
+msgstr "Редактирай потребител"
+
+#: svcishop/templates/dashboard/user/edit_addr.html:13
+msgid "Edit User Address"
+msgstr "Редактирай адрес на потребител"
+
+#: svcishop/templates/errors/404.html:4
+msgid "Page Not Found"
+msgstr "Страницата не е намерена"
+
+#: svcishop/templates/errors/404.html:10
+msgid "Sorry, that page doesn't exist."
+msgstr "За съжаление тази страница не съществува."
+
+#: svcishop/templates/errors/404.html:11
+msgid "Want to"
+msgstr "Искам да"
+
+#: svcishop/templates/errors/404.html:11
+msgid "go home"
+msgstr "към начало"
+
+#: svcishop/templates/errors/404.html:11
+msgid "instead"
+msgstr "вместо"
+
+#: svcishop/templates/orders/_ordered_items_table.html:124
+msgid "Please pay before 00:30, else the order will auto closed"
+msgstr "Моля, платете преди 00:30, в противен случай поръчката ще бъде затворена автоматично"
+
+#: svcishop/templates/orders/_ordered_items_table.html:126
+msgid "Alipay"
+msgstr "Alipay"
+
+#: svcishop/templates/orders/_ordered_items_table.html:129
+msgid "Pay for test"
+msgstr "Платете за тест"
+
+#: svcishop/templates/orders/_ordered_items_table.html:132
+msgid "Cancel Order"
+msgstr "Отмяна на поръчка"
+
+#: svcishop/templates/orders/_ordered_items_table.html:137
+msgid "this order will auto received after 1 day"
+msgstr "тази поръчка ще бъде получена автоматично след 1 ден"
+
+#: svcishop/templates/orders/_ordered_items_table.html:139
+msgid "Confirm receipt"
+msgstr "Потвърдете получаването"
+
+#: svcishop/templates/orders/checkout_success.html:14
+msgid "Thank you for your"
+msgstr "Благодарим за вашата"
+
+#: svcishop/templates/orders/checkout_success.html:14
+msgid "order"
+msgstr "поръчки"
+
+#: svcishop/templates/orders/checkout_success.html:18
+msgid "We've sent a confirmation email with details to"
+msgstr "Изпратихме имейл за потвърждение с подробности до"
+
+#: svcishop/templates/orders/checkout_success.html:19
+msgid "In case of any problems or questions please contact us"
+msgstr "В случай на проблеми или въпроси, моля свържете се с нас"
+
+#: svcishop/templates/orders/checkout_success.html:26
+msgid "Continue shopping"
+msgstr "Продължи пазаруването"
+
+#: svcishop/templates/orders/details.html:36
+msgid "Order Status"
+msgstr "Статус на поръчката"
+
+#: svcishop/templates/orders/details.html:41
+msgid "Your note"
+msgstr "Вашата бележка"
+
+#: svcishop/templates/products/_filters.html:64
+msgid "Clear filters"
+msgstr "Изчистете филтрите"
+
+#: svcishop/templates/products/_filters.html:68
+msgid "Update"
+msgstr "Актуализиране"
+
+#: svcishop/templates/products/details.html:102
+msgid "Please choose a variant!"
+msgstr "Моля, изберете вариант!"
+
+#: svcishop/templates/products/details.html:119
+msgid "Add to cart"
+msgstr "Добави в кошницата"
+
+#: svcishop/templates/products/details.html:131
+msgid "This product is currently"
+msgstr "В момента този продукт е"
+
+#: svcishop/templates/products/details.html:131
+msgid "unavailable"
+msgstr "недостъпен"
+
+#: svcishop/templates/products/product_list_base.html:45
+#: svcishop/templates/public/style_guide.html:417
+msgid "Filters"
+msgstr "Филтри"
+
+#: svcishop/templates/products/product_list_base.html:53
+#: svcishop/templates/products/product_list_base.html:55
+#: svcishop/templates/products/product_list_base.html:72
+msgid "Sort by"
+msgstr "Сортирай по"
+
+#: svcishop/templates/products/product_list_base.html:78
+msgid "ascending"
+msgstr "възходящ"
+
+#: svcishop/templates/products/product_list_base.html:85
+msgid "descending"
+msgstr "низходящ"
+
+#: svcishop/templates/products/product_list_base.html:119
+#: svcishop/templates/public/search_result.html:23
+msgid "Sorry, no matches found for your request."
+msgstr "За съжаление няма намерени съответствия за вашата заявка."
+
+#: svcishop/templates/products/product_list_base.html:120
+#: svcishop/templates/public/search_result.html:24
+msgid "Try again or shop new arrivals."
+msgstr "Опитайте отново или пазарувайте нови продукти."
+
+#: svcishop/templates/public/home.html:11
+msgid "Promo & Sale"
+msgstr "Промоции & Разпродажби"
+
+#: svcishop/templates/public/home.html:12
+msgid "from the Northpole"
+msgstr "от Северния полюс"
+
+#: svcishop/templates/public/home.html:14
+#: svcishop/templates/public/home.html:29
+#: svcishop/templates/public/home.html:41
+msgid "Shop now"
+msgstr "Купи сега"
+
+#: svcishop/templates/public/home.html:28
+msgid "Size & Colours"
+msgstr "Размер & Цвят"
+
+#: svcishop/templates/public/home.html:40
+msgid "Digital Downloads"
+msgstr "Изтегляне"
+
+#: svcishop/templates/public/home.html:50
+msgid "Featured products"
+msgstr "Бъдещи продукти"
+
+#: svcishop/templates/public/page.html:27
+msgid "Warning!"
+msgstr "Предопреждение!"
+
+#: svcishop/templates/public/page.html:28
+msgid "You are previewing a page that is not visible."
+msgstr "Преглеждате страница, която не се вижда."
+
+#: svcishop/templates/public/search_result.html:3
+msgid "Search results"
+msgstr "Търси резултати"
+
+#: svcishop/templates/public/search_result.html:21
+msgid "Search"
+msgstr "Търсене"
+
+#: svcishop/templates/public/style_guide.html:13
+msgid "Style guide"
+msgstr "Ръководство за стил"
+
+#: svcishop/templates/public/style_guide.html:23
+#: svcishop/templates/public/style_guide.html:45
+msgid "Typography"
+msgstr "Типография"
+
+#: svcishop/templates/public/style_guide.html:24
+#: svcishop/templates/public/style_guide.html:80
+msgid "Colors"
+msgstr "Цветове"
+
+#: svcishop/templates/public/style_guide.html:25
+msgid "Grid"
+msgstr "Решетка"
+
+#: svcishop/templates/public/style_guide.html:26
+#: svcishop/templates/public/style_guide.html:198
+msgid "Responsive breakpoints"
+msgstr "Реагиращи точки на прекъсване"
+
+#: svcishop/templates/public/style_guide.html:27
+msgid "Helper classes"
+msgstr "Помощни класове"
+
+#: svcishop/templates/public/style_guide.html:28
+#: svcishop/templates/public/style_guide.html:334
+msgid "Icons"
+msgstr "Икони"
+
+#: svcishop/templates/public/style_guide.html:29
+msgid "Buttons"
+msgstr "Бутони"
+
+#: svcishop/templates/public/style_guide.html:30
+#: svcishop/templates/public/style_guide.html:395
+msgid "Forms"
+msgstr "Форми"
+
+#: svcishop/templates/public/style_guide.html:31
+#: svcishop/templates/public/style_guide.html:588
+msgid "Pagination"
+msgstr "№ Страница"
+
+#: svcishop/templates/public/style_guide.html:32
+msgid "Breadcrumbs"
+msgstr "Трохи"
+
+#: svcishop/templates/public/style_guide.html:33
+#: svcishop/templates/public/style_guide.html:624
+msgid "Notifications"
+msgstr "Известия"
+
+#: svcishop/templates/public/style_guide.html:34
+#: svcishop/templates/public/style_guide.html:644
+msgid "Main navigation"
+msgstr "Основна навигация"
+
+#: svcishop/templates/public/style_guide.html:35
+msgid "Tabs"
+msgstr "Табове"
+
+#: svcishop/templates/public/style_guide.html:36
+msgid "Tables"
+msgstr "Таблици"
+
+#: svcishop/templates/public/style_guide.html:37
+msgid "Cards"
+msgstr "Карти"
+
+#: svcishop/templates/public/style_guide.html:38
+msgid "Product items"
+msgstr "Продуктови артикули"
+
+#: svcishop/templates/public/style_guide.html:39
+#: svcishop/templates/public/style_guide.html:852
+msgid "Product gallery"
+msgstr "Галерия с продукти"
+
+#: svcishop/templates/public/style_guide.html:47
+msgid "We use Lato fontface in Regular(400),"
+msgstr "Използваме шрифт Lato Regular(400),"
+
+#: svcishop/templates/public/style_guide.html:48
+msgid "and"
+msgstr "и"
+
+#: svcishop/templates/public/style_guide.html:48
+msgid "Bold(700)"
+msgstr "Удебелен(700)"
+
+#: svcishop/templates/public/style_guide.html:48
+msgid "weights"
+msgstr "ширина"
+
+#: svcishop/templates/public/style_guide.html:49
+msgid ""
+"Lato includes only latin and latin extended characters. For other alphabets the default sans serif font\n"
+"              will be used."
+msgstr ""
+"Lato включва само латински и латински разширени знаци. За други азбуки шрифтът без засечки по подразбиране\n"
+"               ще бъде използван."
+
+#: svcishop/templates/public/style_guide.html:52
+#: svcishop/templates/public/style_guide.html:708
+#: svcishop/templates/public/style_guide.html:775
+#: svcishop/templates/public/style_guide.html:817
+msgid "Click and edit any text below to see how the component looks with different text"
+msgstr "Щракнете и редактирайте всеки текст по-долу, за да видите как изглежда компонентът с различен текст"
+
+#: svcishop/templates/public/style_guide.html:53
+msgid "Headers"
+msgstr "Заглавия"
+
+#: svcishop/templates/public/style_guide.html:57
+msgid "H1 example text"
+msgstr "H1 примерен текст"
+
+#: svcishop/templates/public/style_guide.html:58
+msgid "H2 example text"
+msgstr "H2 примерен текст"
+
+#: svcishop/templates/public/style_guide.html:59
+msgid "H3 example text (always uppercased)"
+msgstr "H3 примерен текст (ВИНАГИ С ГЛАВНИ БУКВИ)"
+
+#: svcishop/templates/public/style_guide.html:62
+msgid "Paragraph"
+msgstr "Параграф"
+
+#: svcishop/templates/public/style_guide.html:65
+msgid ""
+"Saleor is open and free to use. It is not a bait to force you to pay us later and\n"
+"              we promise to do our bests to fix bugs and improve the code. Some situations however call for a custom\n"
+"              solution and extra code to be written. Whether you need us to cover an exotic use case or build you a\n"
+"              custom e-commerce appliance, our team can help."
+msgstr ""
+"Saleor е отворен и безплатен за използване. Не е стръв, за да ви принудим да ни платите по-късно и\n"
+"обещаваме да направим всичко възможно, за да коригираме грешки и да подобрим кода. Някои ситуации обаче изискват необичайни\n"
+" решение и допълнителен код за писане. Независимо дали имате нужда от нас, за да покрием екзотичен сайт или да  ви изградим\n"
+"персонализиран електронен магазин, нашият екип може да помогне."
+
+#: svcishop/templates/public/style_guide.html:71
+msgid "Links"
+msgstr "Връзки"
+
+#: svcishop/templates/public/style_guide.html:74
+msgid "Link example text"
+msgstr "Примерен текст за връзка"
+
+#: svcishop/templates/public/style_guide.html:75
+msgid "Styled link example text"
+msgstr "Примерен стил на връзка"
+
+#: svcishop/templates/public/style_guide.html:154
+msgid "We use"
+msgstr "Използваме"
+
+#: svcishop/templates/public/style_guide.html:155
+msgid "responsive grid which is based on a 12 column layout. In most cases we use following combinations"
+msgstr "адаптивна мрежа, която се основава на оформление от 12 колони. В повечето случаи използваме следните комбинации"
+
+#: svcishop/templates/public/style_guide.html:206
+msgid "Max container width"
+msgstr "Максимална ширина на контейнера"
+
+#: svcishop/templates/public/style_guide.html:209
+msgid "Class prefix"
+msgstr "Префикс на класа"
+
+#: svcishop/templates/public/style_guide.html:216
+msgid "Extra small"
+msgstr "Много малко"
+
+#: svcishop/templates/public/style_guide.html:219
+msgid "None (auto)"
+msgstr "None (автоматично)"
+
+#: svcishop/templates/public/style_guide.html:229
+msgid "Small"
+msgstr "Малко"
+
+#: svcishop/templates/public/style_guide.html:242
+msgid "Medium"
+msgstr "Средно"
+
+#: svcishop/templates/public/style_guide.html:255
+msgid "Large"
+msgstr "Голямо"
+
+#: svcishop/templates/public/style_guide.html:268
+msgid "Extra large"
+msgstr "Много голямо"
+
+#: svcishop/templates/public/style_guide.html:283
+msgid "Storefront templates built with"
+msgstr "Шаблони за магазина, създадени с"
+
+#: svcishop/templates/public/style_guide.html:285
+msgid "framework wich has handful utility classes"
+msgstr "рамка, която има няколко полезни класа"
+
+#: svcishop/templates/public/style_guide.html:286
+msgid "Responsive floats"
+msgstr "Отзиви"
+
+#: svcishop/templates/public/style_guide.html:291
+msgid "Float left on all viewport sizes"
+msgstr "Премести в ляво за всички размери"
+
+#: svcishop/templates/public/style_guide.html:297
+msgid "Float right on all viewport sizes"
+msgstr "Премести в дясно за всички размери"
+
+#: svcishop/templates/public/style_guide.html:303
+msgid "Don't float on all viewport sizes"
+msgstr "Не променяй във всички размери"
+
+#: svcishop/templates/public/style_guide.html:309
+msgid "Float left on viewports sized SM (small) or wider"
+msgstr "Плуване вляво върху екрани с размер SM (малък) или по-широк"
+
+#: svcishop/templates/public/style_guide.html:315
+msgid "Float right on viewports sized MD (medium) or wider"
+msgstr "Плава вдясно върху прозорци с размер MD (среден) или по-широк"
+
+#: svcishop/templates/public/style_guide.html:321
+msgid "Responsive utilities"
+msgstr "Отзивчиви помощни програми"
+
+#: svcishop/templates/public/style_guide.html:324
+msgid ""
+"The <code>.hidden-*-up</code> classes hide the element when the viewport is at the given breakpoint or\n"
+"              wider. For example, <code>.hidden-md-up</code> hides an element on medium, large, and extra-large\n"
+"              viewports."
+msgstr ""
+"Класовете <code>.hidden-*-up</code> скриват елемента, когато изгледът е в дадена точка на прекъсване или\n"
+"               по-широк. Например <code>.hidden-md-up</code> скрива елемент на среден, голям и изключително голям\n"
+"               изгледи."
+
+#: svcishop/templates/public/style_guide.html:327
+msgid ""
+"The <code>.hidden-*-down</code> classes hide the element when the viewport is at the given breakpoint or\n"
+"              smaller. For example, <code>.hidden-md-down</code> hides an element on extra-small, small, and medium\n"
+"              viewports."
+msgstr ""
+"Класовете <code>.hidden-*-down</code> скриват елемента, когато изгледът е в дадена точка на прекъсване или\n"
+"               по-малък. Например <code>.hidden-md-down</code> скрива елемент на изключително малък, малък и среден\n"
+"               изгледи."
+
+#: svcishop/templates/public/style_guide.html:351
+msgid "Click and edit any button below to see how the component looks with different text"
+msgstr "Щракнете и редактирайте който и да е бутон по-долу, за да видите как изглежда компонентът с различен текст"
+
+
+#: svcishop/templates/public/style_guide.html:355
+msgid "Primary Button (buttons can be really very wide)"
+msgstr "Основен бутон (бутоните могат да бъдат наистина много широки)"
+
+#: svcishop/templates/public/style_guide.html:358
+msgid "Secondary Button"
+msgstr "Вторичен бутон"
+
+#: svcishop/templates/public/style_guide.html:361
+msgid "Danger Button"
+msgstr "Бутон за опасност"
+
+#: svcishop/templates/public/style_guide.html:364
+msgid "Disabled Button"
+msgstr "Деактивиран бутон"
+
+#: svcishop/templates/public/style_guide.html:367
+msgid "Gray Button"
+msgstr "Сив бутон"
+
+#: svcishop/templates/public/style_guide.html:370
+msgid "Primary Narrow Button"
+msgstr "Основен тесен бутон"
+
+#: svcishop/templates/public/style_guide.html:373
+msgid "Secondary Narrow Button"
+msgstr "Вторичен тесен бутон"
+
+#: svcishop/templates/public/style_guide.html:376
+msgid "Danger Narrow Button"
+msgstr "Опасно тесен бутон"
+
+#: svcishop/templates/public/style_guide.html:384
+msgid "Home page button"
+msgstr "Бутон за начална страница"
+
+#: svcishop/templates/public/style_guide.html:396
+msgid "Text form"
+msgstr "Форма за текст"
+
+#: svcishop/templates/public/style_guide.html:402
+msgid "Given name"
+msgstr "Собствено име"
+
+#: svcishop/templates/public/style_guide.html:409
+msgid "Family name"
+msgstr "Фамилия"
+
+#: svcishop/templates/public/style_guide.html:424
+msgid "Box Size"
+msgstr "Размер на кутията"
+
+#: svcishop/templates/public/style_guide.html:431
+#: svcishop/templates/public/style_guide.html:527
+msgid "100g"
+msgstr "100г"
+
+#: svcishop/templates/public/style_guide.html:433
+#: svcishop/templates/public/style_guide.html:530
+msgid "250g"
+msgstr "250г"
+
+#: svcishop/templates/public/style_guide.html:435
+msgid "500g"
+msgstr "500г"
+
+#: svcishop/templates/public/style_guide.html:436
+msgid "Feel free to place here as long option as you want"
+msgstr "Чувствайте се свободни да поставите тук толкова дълга опция, колкото искате"
+
+#: svcishop/templates/public/style_guide.html:445
+msgid "Select"
+msgstr "Избери"
+
+#: svcishop/templates/public/style_guide.html:452
+#: svcishop/templates/public/style_guide.html:453
+#: svcishop/templates/public/style_guide.html:454
+#: svcishop/templates/public/style_guide.html:455
+msgid "Option"
+msgstr "Опция"
+
+#: svcishop/templates/public/style_guide.html:462
+msgid "Number input"
+msgstr "Въвеждане на число"
+
+#: svcishop/templates/public/style_guide.html:476
+msgid "Radio buttons"
+msgstr "Радио бутони"
+
+#: svcishop/templates/public/style_guide.html:484
+#: svcishop/templates/public/style_guide.html:559
+msgid "First option"
+msgstr "Първи вариант"
+
+#: svcishop/templates/public/style_guide.html:490
+#: svcishop/templates/public/style_guide.html:533
+#: svcishop/templates/public/style_guide.html:565
+msgid "Feel free to place here as long text as you want"
+msgstr "Чувствайте се свободни да поставите тук толкова дълъг текст, колкото искате"
+
+#: svcishop/templates/public/style_guide.html:497
+msgid "Input groups"
+msgstr "Входни групи"
+
+#: svcishop/templates/public/style_guide.html:516
+msgid "Use"
+msgstr "Използвай"
+
+#: svcishop/templates/public/style_guide.html:522
+msgid "Variant picker"
+msgstr "Избор на варианти"
+
+#: svcishop/templates/public/style_guide.html:537
+msgid "Errors"
+msgstr "Грешки"
+
+#: svcishop/templates/public/style_guide.html:538
+msgid "Errors are always displayed as a small red text below the form explaining what cause the error."
+msgstr "Грешките винаги се показват като малък червен текст под формуляра, обясняващ причината за грешката."
+
+
+#: svcishop/templates/public/style_guide.html:548
+#: svcishop/templates/public/style_guide.html:569
+msgid "This field is required"
+msgstr "Това поле е задължително"
+
+#: svcishop/templates/public/style_guide.html:555
+msgid "Radio form"
+msgstr "Форма за опция"
+
+#: svcishop/templates/public/style_guide.html:580
+msgid "Only 32 remaining in stock"
+msgstr "Остават само 32 броя на склад"
+
+#: svcishop/templates/public/style_guide.html:589
+#: svcishop/templates/public/style_guide.html:602
+#: svcishop/templates/public/style_guide.html:625
+#: svcishop/templates/public/style_guide.html:645
+msgid "Click and edit any item below to see how the component looks with different text"
+msgstr "Щракнете и редактирайте всеки елемент по-долу, за да видите как изглежда компонентът с различен текст"
+
+
+#: svcishop/templates/public/style_guide.html:630
+msgid "This is Success alert"
+msgstr "Това е сигнал за успех"
+
+#: svcishop/templates/public/style_guide.html:634
+msgid "This is Danger alert"
+msgstr "Това е предупреждение за опасност"
+
+#: svcishop/templates/public/style_guide.html:638
+msgid "This is Warning alert. Notifications content is not limited with container width. Place here as many information as you want or need to"
+msgstr "Това е Предупреждение. Съдържанието на известия не е ограничено с ширината на контейнера. Поставете тук толкова информация, колкото искате или трябва"
+
+#: svcishop/templates/public/style_guide.html:662
+msgid "Tabs navigation"
+msgstr "Навигация на табове"
+
+#: svcishop/templates/public/style_guide.html:740
+msgid "Payment pending"
+msgstr "Чака плащане"
+
+#: svcishop/templates/public/style_guide.html:761
+msgid "Fully paid"
+msgstr "Платено"
+
+#: svcishop/templates/public/style_guide.html:782
+msgid "Mr. Walter C. Brown"
+msgstr "Г-н Тест Ф. Браун"
+
+#: svcishop/templates/public/style_guide.html:783
+msgid "49 Featherstone Street"
+msgstr "ул. Тест № 48"
+
+#: svcishop/templates/public/style_guide.html:784
+msgid "London, EC1Y 8SY"
+msgstr "Гр. Варна, 9000"
+
+#: svcishop/templates/public/style_guide.html:786
+msgid "United Kingdom"
+msgstr "България"
+
+#: svcishop/templates/public/style_guide.html:825
+#: svcishop/templates/public/style_guide.html:836
+msgid "Johnson-Brown"
+msgstr "Тест-Браун"
+
+#: svcishop/templates/public/style_guide.html:843
+msgid "FROM"
+msgstr "ОТ"
+
+#: plugin_example/conversations/forms.py:14
+msgid "Recipient"
+msgstr "Получател"
+
+#: plugin_example/conversations/forms.py:14
+msgid "A valid username is required."
+msgstr "Невалидно потребителско име "
+
+#: plugin_example/conversations/forms.py:18
+#: plugin_example/conversations/templates/conversation.html:252
+msgid "Subject"
+msgstr "Заглавие"
+
+#: plugin_example/conversations/forms.py:18
+msgid "A Subject is required."
+msgstr "Заглавие е задължително"
+
+#: plugin_example/conversations/forms.py:22
+#: plugin_example/conversations/forms.py:53
+msgid "Message"
+msgstr "Снимки"
+
+#: plugin_example/conversations/forms.py:22
+#: plugin_example/conversations/forms.py:53
+msgid "A message is required."
+msgstr "Съобщение е задължително"
+
+#: plugin_example/conversations/forms.py:28
+msgid "The username you entered does not exist."
+msgstr "Потребителят не съществува"
+
+#: plugin_example/conversations/forms.py:30
+msgid "You cannot send a PM to yourself."
+msgstr "Ме може да изпращате до себе си"
+
+#: plugin_example/conversations/views.py:34
+msgid "You cannot send any messages anymore because you have reached your message limit."
+msgstr "Не може да изпращате съобщения, достигнали сте вашия лимит"
+
+#: plugin_example/conversations/templates/message_form.html:3
+#: plugin_example/conversations/views.py:145
+msgid "Compose Message"
+msgstr "Напиши съобщение"
+
+#: plugin_example/conversations/views.py:177
+msgid "Message sent."
+msgstr "Съобщението е изпратено."
+
+#: plugin_example/conversations/templates/_inject_navlink.html:7
+#: plugin_example/conversations/templates/_inject_navlink.html:18
+#: plugin_example/conversations/templates/inbox.html:3
+msgid "Inbox"
+msgstr "Входящи"
+
+#: plugin_example/conversations/templates/_inject_navlink.html:15
+msgid "No unread messages."
+msgstr "Няма непрочетени."
+
+#: plugin_example/conversations/templates/_inject_navlink.html:19
+#: plugin_example/conversations/templates/message_layout.html:20
+msgid "New Message"
+msgstr "Ново съобщение"
+
+#: plugin_example/conversations/templates/conversation.html:304
+msgid "Send"
+msgstr "Използван"
+
+#: plugin_example/conversations/templates/conversation_list.html:14
+msgid "Conversations"
+msgstr "Операция"
+
+#: plugin_example/conversations/templates/conversation_list.html:52
+#: plugin_example/conversations/templates/conversation_list.html:59
+msgid "Deleted User"
+msgstr "Изтрит потребител"
+
+#: plugin_example/conversations/templates/conversation_list.html:73
+msgid "trash"
+msgstr "изтрити"
+
+#: plugin_example/conversations/templates/conversation_list.html:82
+msgid "delete"
+msgstr "изтрий"
+
+#: plugin_example/conversations/templates/conversation_list.html:91
+msgid "restore"
+msgstr "възстанови"
+
+#: plugin_example/conversations/templates/conversation_list.html:98
+msgid "edit"
+msgstr "Редактирай"
+
+#: plugin_example/conversations/templates/conversation_list.html:108
+msgid "No conversations found."
+msgstr "Няма намерени разговори"
+
+#: plugin_example/conversations/templates/message_layout.html:10
+msgid "Private Message"
+msgstr "Лично съобщение"
+
+#: plugin_example/conversations/templates/sent.html:3
+msgid "Sent Messages"
+msgstr "Текущо изображение"
+
+#: plugin_example/conversations/templates/trash.html:3
+msgid "Trash"
+msgstr "Изтрити"

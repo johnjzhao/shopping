@@ -1,0 +1,2083 @@
+# Translations template for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-09-02 10:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../svcishop/constant.py:32
+msgid "Login user"
+msgstr ""
+
+#: ../svcishop/constant.py:33
+msgid "Editor"
+msgstr ""
+
+#: ../svcishop/constant.py:34
+msgid "Operator"
+msgstr ""
+
+#: ../svcishop/constant.py:35
+msgid "Super administrator"
+msgstr ""
+
+#: ../svcishop/account/forms.py:17 ../svcishop/dashboard/views/user.py:26
+msgid "Username"
+msgstr ""
+
+#: ../svcishop/account/forms.py:23
+msgid "The username should contain only a-z, A-Z and 0-9."
+msgstr ""
+
+#: ../svcishop/account/forms.py:28 ../svcishop/account/forms.py:60
+#: ../svcishop/dashboard/views/user.py:27
+msgid "Email"
+msgstr ""
+
+#: ../svcishop/account/forms.py:31 ../svcishop/account/forms.py:89
+#: ../svcishop/account/forms.py:122 ../svcishop/dashboard/forms.py:85
+msgid "Password"
+msgstr ""
+
+#: ../svcishop/account/forms.py:34 ../svcishop/account/forms.py:124
+msgid "Verify password"
+msgstr ""
+
+#: ../svcishop/account/forms.py:35 ../svcishop/account/forms.py:127
+msgid "Passwords must match"
+msgstr ""
+
+#: ../svcishop/account/forms.py:50
+msgid "Username already registered"
+msgstr ""
+
+#: ../svcishop/account/forms.py:54
+msgid "Email already registered"
+msgstr ""
+
+#: ../svcishop/account/forms.py:76 ../svcishop/account/forms.py:107
+msgid "Unknown username"
+msgstr ""
+
+#: ../svcishop/account/forms.py:79 ../svcishop/account/forms.py:115
+msgid "User not activated"
+msgstr ""
+
+#: ../svcishop/account/forms.py:82
+msgid "Invalid"
+msgstr ""
+
+#: ../svcishop/account/forms.py:88
+msgid "Username Or Email"
+msgstr ""
+
+#: ../svcishop/account/forms.py:111 ../svcishop/account/forms.py:143
+msgid "Invalid password"
+msgstr ""
+
+#: ../svcishop/account/forms.py:121
+msgid "Old Password"
+msgstr ""
+
+#: ../svcishop/account/forms.py:151 ../svcishop/dashboard/forms.py:94
+msgid "Province"
+msgstr ""
+
+#: ../svcishop/account/forms.py:152
+msgid "City"
+msgstr ""
+
+#: ../svcishop/account/forms.py:153 ../svcishop/dashboard/forms.py:96
+msgid "District"
+msgstr ""
+
+#: ../svcishop/account/forms.py:154 ../svcishop/dashboard/forms.py:97
+msgid "Address"
+msgstr ""
+
+#: ../svcishop/account/forms.py:155
+msgid "Contact name"
+msgstr ""
+
+#: ../svcishop/account/forms.py:157 ../svcishop/dashboard/forms.py:99
+#: ../svcishop/templates/dashboard/user/detail.html:57
+msgid "Contact Phone"
+msgstr ""
+
+#: ../svcishop/account/views.py:31
+msgid "You are log in."
+msgstr ""
+
+#: ../svcishop/account/views.py:46
+msgid "Check your e-mail."
+msgstr ""
+
+#: ../svcishop/account/views.py:50
+#: ../svcishop/templates/account/login.html:23
+#: ../svcishop/templates/account/partials/login_form.html:16
+msgid "Reset Password"
+msgstr ""
+
+#: ../svcishop/account/views.py:52
+#, python-format
+msgid ""
+"We cannot simply send you your old password.\n"
+" \n"
+"        A unique password has been generated for you. Change the password"
+" after logging in.\n"
+"\n"
+"        New Password is: %s"
+msgstr ""
+
+#: ../svcishop/account/views.py:68
+msgid "You are logged out."
+msgstr ""
+
+#: ../svcishop/account/views.py:83
+msgid "You are signed up."
+msgstr ""
+
+#: ../svcishop/account/views.py:94
+msgid "You have changed password."
+msgstr ""
+
+#: ../svcishop/account/views.py:125
+msgid "Success edit address."
+msgstr ""
+
+#: ../svcishop/account/views.py:128
+msgid "Success add address."
+msgstr ""
+
+#: ../svcishop/api/checkout.py:5
+msgid "Checkout related operations"
+msgstr ""
+
+#: ../svcishop/api/checkout.py:10
+msgid "The checkout cartline id"
+msgstr ""
+
+#: ../svcishop/api/checkout.py:11
+msgid "The cart item num"
+msgstr ""
+
+#: ../svcishop/api/checkout.py:13
+msgid "The cart item title"
+msgstr ""
+
+#: ../svcishop/api/checkout.py:16
+msgid "The cart item variant"
+msgstr ""
+
+#: ../svcishop/api/checkout.py:19
+msgid "The cart item product"
+msgstr ""
+
+#: ../svcishop/api/checkout.py:22
+msgid "The cart item price"
+msgstr ""
+
+#: ../svcishop/api/checkout.py:25
+msgid "The cart item image"
+msgstr ""
+
+#: ../svcishop/api/product.py:9
+msgid "Products related operations"
+msgstr ""
+
+#: ../svcishop/api/product.py:11
+msgid "The variant"
+msgstr ""
+
+#: ../svcishop/api/product.py:12
+msgid "The quantity"
+msgstr ""
+
+#: ../svcishop/api/product.py:17 ../svcishop/api/product.py:39
+#: ../svcishop/api/product.py:63
+msgid "The product identifier"
+msgstr ""
+
+#: ../svcishop/api/product.py:18 ../svcishop/api/product.py:40
+msgid "The product name"
+msgstr ""
+
+#: ../svcishop/api/product.py:19 ../svcishop/api/product.py:41
+msgid "The product description"
+msgstr ""
+
+#: ../svcishop/api/product.py:20 ../svcishop/api/product.py:42
+msgid "The product price"
+msgstr ""
+
+#: ../svcishop/api/product.py:21
+msgid "The product first img"
+msgstr ""
+
+#: ../svcishop/api/product.py:27
+msgid "The variant identifier"
+msgstr ""
+
+#: ../svcishop/api/product.py:28
+msgid "The variant sku"
+msgstr ""
+
+#: ../svcishop/api/product.py:29
+msgid "The variant name"
+msgstr ""
+
+#: ../svcishop/api/product.py:30
+msgid "The variant price"
+msgstr ""
+
+#: ../svcishop/api/product.py:32
+msgid "The variant stock"
+msgstr ""
+
+#: ../svcishop/api/product.py:43
+msgid "The product images"
+msgstr ""
+
+#: ../svcishop/api/product.py:45
+msgid "The product variant"
+msgstr ""
+
+#: ../svcishop/api/product.py:64
+msgid "Product not found"
+msgstr ""
+
+#: ../svcishop/checkout/forms.py:6
+msgid "ADD A NOTE TO YOUR ORDER"
+msgstr ""
+
+#: ../svcishop/checkout/forms.py:10 ../svcishop/dashboard/forms.py:174
+msgid "Code"
+msgstr ""
+
+#: ../svcishop/checkout/views.py:118
+msgid "Your code is not correct"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:48 ../svcishop/dashboard/forms.py:57
+#: ../svcishop/dashboard/forms.py:69 ../svcishop/dashboard/forms.py:104
+#: ../svcishop/dashboard/forms.py:111 ../svcishop/dashboard/forms.py:119
+#: ../svcishop/dashboard/forms.py:127 ../svcishop/dashboard/forms.py:136
+#: ../svcishop/dashboard/forms.py:159 ../svcishop/dashboard/forms.py:166
+#: ../svcishop/dashboard/forms.py:172 ../svcishop/dashboard/forms.py:193
+#: ../svcishop/dashboard/views/discount.py:16
+#: ../svcishop/dashboard/views/discount.py:70
+#: ../svcishop/dashboard/views/product.py:30
+#: ../svcishop/dashboard/views/product.py:67
+#: ../svcishop/dashboard/views/product.py:108
+#: ../svcishop/dashboard/views/product.py:152
+#: ../svcishop/dashboard/views/product.py:212
+#: ../svcishop/dashboard/views/site.py:24
+#: ../svcishop/dashboard/views/site.py:58
+#: ../svcishop/dashboard/views/site.py:106
+#: ../svcishop/dashboard/views/site.py:144
+#: ../svcishop/templates/dashboard/product/detail.html:96
+msgid "Title"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:49 ../svcishop/dashboard/forms.py:58
+#: ../svcishop/dashboard/views/site.py:59
+#: ../svcishop/dashboard/views/site.py:107
+#: ../svcishop/templates/account/details.html:47
+#: ../svcishop/templates/dashboard/index.html:105
+#: ../svcishop/templates/orders/details.html:22
+#: ../svcishop/templates/orders/details.html:35
+#: ../svcishop/templates/public/style_guide.html:714
+msgid "Order"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:50
+msgid "End Point"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:51
+msgid "Icon"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:52 ../svcishop/dashboard/forms.py:60
+#: ../svcishop/dashboard/forms.py:120
+#: ../svcishop/dashboard/views/product.py:109
+msgid "Parent"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:53 ../svcishop/dashboard/forms.py:65
+#: ../svcishop/dashboard/forms.py:73 ../svcishop/dashboard/forms.py:79
+#: ../svcishop/dashboard/forms.py:90 ../svcishop/dashboard/forms.py:100
+#: ../svcishop/dashboard/forms.py:107 ../svcishop/dashboard/forms.py:115
+#: ../svcishop/dashboard/forms.py:123 ../svcishop/dashboard/forms.py:132
+#: ../svcishop/dashboard/forms.py:147 ../svcishop/dashboard/forms.py:152
+#: ../svcishop/dashboard/forms.py:162 ../svcishop/dashboard/forms.py:168
+#: ../svcishop/dashboard/forms.py:189 ../svcishop/dashboard/forms.py:198
+msgid "Submit"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:59 ../svcishop/dashboard/views/site.py:146
+msgid "Url"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:61 ../svcishop/dashboard/views/site.py:60
+msgid "Position"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:61
+msgid "none"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:61
+msgid "top"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:61
+msgid "bottom"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:62 ../svcishop/dashboard/forms.py:143
+#: ../svcishop/dashboard/forms.py:184 ../svcishop/dashboard/forms.py:196
+#: ../svcishop/dashboard/views/product.py:216
+#: ../svcishop/templates/dashboard/product/category.html:15
+#: ../svcishop/templates/dashboard/product/detail.html:56
+#: ../svcishop/templates/dashboard/product/list.html:26
+msgid "Category"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:63
+#: ../svcishop/templates/dashboard/product/collection.html:15
+msgid "Collection"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:64
+#: ../svcishop/templates/dashboard/site/site_page.html:14
+msgid "Page"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:70 ../svcishop/dashboard/views/site.py:145
+msgid "Slug"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:71
+msgid "Content"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:72
+msgid "Is Visible"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:77
+msgid "Header"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:78 ../svcishop/dashboard/forms.py:144
+#: ../svcishop/templates/products/details.html:135
+msgid "Description"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:83
+msgid "User Name"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:84
+msgid "E-mail"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:86
+msgid "Is Activ"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:87
+msgid "Role"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:88
+msgid "Created at"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:89
+msgid "Updated at"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:95
+msgid "Sity"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:98
+#: ../svcishop/templates/dashboard/user/detail.html:56
+msgid "Contact Name"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:105
+#: ../svcishop/dashboard/views/product.py:31
+msgid "Value"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:106
+#: ../svcishop/templates/dashboard/site/index.html:27
+msgid "Product Types"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:112
+msgid "Products"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:113 ../svcishop/dashboard/forms.py:121
+msgid "Current Image"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:114 ../svcishop/dashboard/forms.py:122
+msgid "Upload"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:128
+msgid "Has variant"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:129
+msgid "Is shipping required"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:130
+msgid "Product atributes"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:131
+msgid "Variant Attributes"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:137
+msgid "Basic Price"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:138
+#: ../svcishop/dashboard/views/product.py:213
+#: ../svcishop/templates/dashboard/product/detail.html:39
+#: ../svcishop/templates/dashboard/product/list.html:19
+msgid "On Sale"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:139
+msgid "Is Featured"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:140
+#: ../svcishop/templates/dashboard/product/detail.html:47
+msgid "Rating"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:141
+#: ../svcishop/dashboard/views/product.py:214
+#: ../svcishop/templates/dashboard/product/detail.html:50
+msgid "Sold Count"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:142
+#: ../svcishop/templates/dashboard/product/detail.html:53
+msgid "Review Count"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:145
+msgid "Images"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:146
+msgid "Atributes"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:151
+msgid "Choose A Product Type"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:157
+#: ../svcishop/templates/dashboard/order/detail.html:51
+#: ../svcishop/templates/dashboard/product/detail.html:95
+msgid "SKU"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:160
+msgid "Price override"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:161
+#: ../svcishop/templates/checkout/cart.html:26
+#: ../svcishop/templates/dashboard/product/detail.html:97
+#: ../svcishop/templates/orders/_ordered_items_table.html:12
+#: ../svcishop/templates/public/style_guide.html:573
+msgid "Quantity"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:167
+#: ../svcishop/dashboard/views/product.py:215
+#: ../svcishop/dashboard/views/site.py:25
+#: ../svcishop/templates/checkout/cart.html:29
+#: ../svcishop/templates/dashboard/product/detail.html:43
+#: ../svcishop/templates/orders/_ordered_items_table.html:17
+#: ../svcishop/templates/products/_filters.html:49
+msgid "Price"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:173
+#: ../svcishop/dashboard/views/discount.py:17
+#: ../svcishop/templates/dashboard/product/product_create_step2.html:17
+msgid "Type"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:175
+msgid "Usage limit"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:176
+msgid "how many times can be used"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:178
+#: ../svcishop/dashboard/views/discount.py:19
+msgid "Used"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:179
+msgid "Validity Period"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:180 ../svcishop/dashboard/forms.py:194
+msgid "Discount value type"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:181 ../svcishop/dashboard/forms.py:195
+msgid "Discount value"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:182
+msgid "Limit"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:184
+msgid "when type is category, need to select"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:187 ../svcishop/dashboard/forms.py:197
+#: ../svcishop/templates/checkout/cart.html:23
+#: ../svcishop/templates/dashboard/order/detail.html:50
+#: ../svcishop/templates/orders/_ordered_items_table.html:7
+msgid "Product"
+msgstr ""
+
+#: ../svcishop/dashboard/forms.py:187
+msgid "when type is product, need to select"
+msgstr ""
+
+#: ../svcishop/dashboard/views/discount.py:15
+#: ../svcishop/dashboard/views/discount.py:69
+#: ../svcishop/dashboard/views/order.py:27
+#: ../svcishop/dashboard/views/product.py:29
+#: ../svcishop/dashboard/views/product.py:67
+#: ../svcishop/dashboard/views/product.py:107
+#: ../svcishop/dashboard/views/product.py:151
+#: ../svcishop/dashboard/views/product.py:211
+#: ../svcishop/dashboard/views/site.py:23
+#: ../svcishop/dashboard/views/site.py:57
+#: ../svcishop/dashboard/views/site.py:105
+#: ../svcishop/dashboard/views/site.py:143
+#: ../svcishop/dashboard/views/user.py:25
+#: ../svcishop/templates/dashboard/product/detail.html:94
+#: ../svcishop/templates/dashboard/user/detail.html:55
+#: ../svcishop/templates/dashboard/user/detail.html:80
+msgid "ID"
+msgstr ""
+
+#: ../svcishop/dashboard/views/discount.py:18
+msgid "Usage Limit"
+msgstr ""
+
+#: ../svcishop/dashboard/views/discount.py:20
+#: ../svcishop/dashboard/views/discount.py:71
+msgid "Discount Type"
+msgstr ""
+
+#: ../svcishop/dashboard/views/discount.py:21
+#: ../svcishop/dashboard/views/discount.py:72
+msgid "Discount Value"
+msgstr ""
+
+#: ../svcishop/dashboard/views/discount.py:24
+#: ../svcishop/templates/dashboard/discount/voucher.html:15
+msgid "Voucher"
+msgstr ""
+
+#: ../svcishop/dashboard/views/discount.py:28
+msgid "vouchers"
+msgstr ""
+
+#: ../svcishop/dashboard/views/discount.py:75
+#: ../svcishop/templates/dashboard/discount/sale.html:14
+#: ../svcishop/templates/products/_items.html:14
+#: ../svcishop/templates/public/style_guide.html:841
+msgid "Sale"
+msgstr ""
+
+#: ../svcishop/dashboard/views/discount.py:79
+msgid "sales"
+msgstr ""
+
+#: ../svcishop/dashboard/views/order.py:28
+msgid "Identity"
+msgstr ""
+
+#: ../svcishop/dashboard/views/order.py:29
+#: ../svcishop/templates/account/details.html:56
+#: ../svcishop/templates/dashboard/order/detail.html:22
+#: ../svcishop/templates/dashboard/order/list.html:16
+#: ../svcishop/templates/dashboard/user/detail.html:81
+#: ../svcishop/templates/public/style_guide.html:723
+msgid "Status"
+msgstr ""
+
+#: ../svcishop/dashboard/views/order.py:30
+#: ../svcishop/templates/checkout/_subtotal_table.html:4
+#: ../svcishop/templates/checkout/details.html:101
+#: ../svcishop/templates/dashboard/order/detail.html:106
+#: ../svcishop/templates/dashboard/user/detail.html:82
+#: ../svcishop/templates/orders/_ordered_items_table.html:101
+msgid "Total"
+msgstr ""
+
+#: ../svcishop/dashboard/views/order.py:31
+msgid "User"
+msgstr ""
+
+#: ../svcishop/dashboard/views/order.py:32
+#: ../svcishop/dashboard/views/product.py:67
+#: ../svcishop/dashboard/views/product.py:110
+#: ../svcishop/dashboard/views/product.py:155
+#: ../svcishop/dashboard/views/site.py:26
+#: ../svcishop/templates/dashboard/order/detail.html:14
+#: ../svcishop/templates/dashboard/order/list.html:28
+#: ../svcishop/templates/dashboard/user/detail.html:83
+msgid "Created At"
+msgstr ""
+
+#: ../svcishop/dashboard/views/product.py:32
+#: ../svcishop/templates/dashboard/product/detail.html:59
+msgid "ProductType"
+msgstr ""
+
+#: ../svcishop/dashboard/views/product.py:35
+msgid "Product Attribute"
+msgstr ""
+
+#: ../svcishop/dashboard/views/product.py:69
+msgid "Product Collection"
+msgstr ""
+
+#: ../svcishop/dashboard/views/product.py:113
+msgid "Product Category"
+msgstr ""
+
+#: ../svcishop/dashboard/views/product.py:153
+msgid "Has Variants"
+msgstr ""
+
+#: ../svcishop/dashboard/views/product.py:154
+msgid "Is Shipping Required"
+msgstr ""
+
+#: ../svcishop/dashboard/views/product.py:158
+#: ../svcishop/templates/dashboard/product/product_type.html:15
+msgid "Product Type"
+msgstr ""
+
+#: ../svcishop/dashboard/views/site.py:29
+#: ../svcishop/templates/dashboard/order/detail.html:35
+#: ../svcishop/templates/dashboard/site/shipping_method.html:15
+msgid "Shipping Method"
+msgstr ""
+
+#: ../svcishop/dashboard/views/site.py:61
+#: ../svcishop/dashboard/views/site.py:110
+msgid "Parent Id"
+msgstr ""
+
+#: ../svcishop/dashboard/views/site.py:64
+msgid "Site Menus"
+msgstr ""
+
+#: ../svcishop/dashboard/views/site.py:108
+msgid "Endpoint"
+msgstr ""
+
+#: ../svcishop/dashboard/views/site.py:109
+msgid "Icon class"
+msgstr ""
+
+#: ../svcishop/dashboard/views/site.py:113
+msgid "Dashboard Menus"
+msgstr ""
+
+#: ../svcishop/dashboard/views/site.py:147
+msgid "Is Visiable"
+msgstr ""
+
+#: ../svcishop/dashboard/views/site.py:150
+msgid "Site Pages"
+msgstr ""
+
+#: ../svcishop/dashboard/views/site.py:183
+msgid "The plugin is enabled, Please restart svci-shop now!"
+msgstr ""
+
+#: ../svcishop/dashboard/views/site.py:191
+msgid "The plugin is disabled, Please restart svci-shop now!"
+msgstr ""
+
+#: ../svcishop/dashboard/views/site.py:219
+msgid "Settings saved."
+msgstr ""
+
+#: ../svcishop/dashboard/views/user.py:28
+msgid "Is Active"
+msgstr ""
+
+#: ../svcishop/dashboard/views/user.py:31
+msgid "User List"
+msgstr ""
+
+#: ../svcishop/order/views.py:34
+msgid "This is not your order!"
+msgstr ""
+
+#: ../svcishop/order/views.py:41
+msgid "This Order Can Not Pay"
+msgstr ""
+
+#: ../svcishop/templates/base.html:16
+msgid "SVCI Business"
+msgstr ""
+
+#: ../svcishop/templates/base.html:48 ../svcishop/templates/base.html:186
+#: ../svcishop/templates/dashboard/layout.html:22
+msgid "Dashboard"
+msgstr ""
+
+#: ../svcishop/templates/base.html:55
+msgid "Your Account"
+msgstr ""
+
+#: ../svcishop/templates/base.html:60
+msgid "Log Out"
+msgstr ""
+
+#: ../svcishop/templates/account/login.html:15
+#: ../svcishop/templates/base.html:66 ../svcishop/templates/base.html:204
+msgid "Register"
+msgstr ""
+
+#: ../svcishop/templates/account/login.html:3
+#: ../svcishop/templates/account/login.html:21
+#: ../svcishop/templates/account/partials/login_form.html:14
+#: ../svcishop/templates/account/signup.html:13
+#: ../svcishop/templates/base.html:71 ../svcishop/templates/base.html:209
+msgid "Log in"
+msgstr ""
+
+#: ../svcishop/templates/base.html:114 ../svcishop/templates/base.html:179
+msgid "Your Cart"
+msgstr ""
+
+#: ../svcishop/templates/base.html:173
+#: ../svcishop/templates/dashboard/order/detail.html:25
+msgid "Account"
+msgstr ""
+
+#: ../svcishop/templates/account/details.html:12
+#: ../svcishop/templates/base.html:192
+#: ../svcishop/templates/orders/details.html:17
+msgid "Your account"
+msgstr ""
+
+#: ../svcishop/templates/base.html:198
+msgid "Log out"
+msgstr ""
+
+#: ../svcishop/templates/account/address_edit.html:14
+#: ../svcishop/templates/public/style_guide.html:612
+msgid "Your profile"
+msgstr ""
+
+#: ../svcishop/templates/account/address_edit.html:30
+#: ../svcishop/templates/public/style_guide.html:617
+msgid "Edit address"
+msgstr ""
+
+#: ../svcishop/templates/account/address_edit.html:30
+msgid "New address"
+msgstr ""
+
+#: ../svcishop/templates/account/address_edit.html:37
+msgid "Save changes"
+msgstr ""
+
+#: ../svcishop/templates/account/details.html:9
+#: ../svcishop/templates/checkout/cart.html:7
+#: ../svcishop/templates/orders/details.html:12
+#: ../svcishop/templates/public/page.html:13
+#: ../plugin_example/conversations/templates/message_layout.html:7
+msgid "Home"
+msgstr ""
+
+#: ../svcishop/templates/account/details.html:19
+msgid "My account"
+msgstr ""
+
+#: ../svcishop/templates/account/details.html:23
+#: ../svcishop/templates/public/style_guide.html:668
+msgid "Recent Orders"
+msgstr ""
+
+#: ../svcishop/templates/account/details.html:29
+#: ../svcishop/templates/account/details.html:107
+#: ../svcishop/templates/public/style_guide.html:673
+msgid "Change password"
+msgstr ""
+
+#: ../svcishop/templates/account/details.html:35
+#: ../svcishop/templates/public/style_guide.html:678
+msgid "Addresses book"
+msgstr ""
+
+#: ../svcishop/templates/account/details.html:50
+#: ../svcishop/templates/public/style_guide.html:717
+msgid "Date"
+msgstr ""
+
+#: ../svcishop/templates/account/details.html:53
+#: ../svcishop/templates/public/style_guide.html:720
+msgid "Summary"
+msgstr ""
+
+#: ../svcishop/templates/account/details.html:80
+#: ../svcishop/templates/public/style_guide.html:744
+#: ../svcishop/templates/public/style_guide.html:765
+msgid "Details"
+msgstr ""
+
+#: ../svcishop/templates/account/details.html:93
+msgid "There are not any completed orders yet."
+msgstr ""
+
+#: ../svcishop/templates/account/details.html:122
+#: ../svcishop/templates/dashboard/discount/sale.html:13
+#: ../svcishop/templates/dashboard/discount/voucher.html:14
+#: ../svcishop/templates/dashboard/list.html:45
+#: ../svcishop/templates/dashboard/product/attribute.html:14
+#: ../svcishop/templates/dashboard/product/category.html:14
+#: ../svcishop/templates/dashboard/product/collection.html:14
+#: ../svcishop/templates/dashboard/product/detail.html:16
+#: ../svcishop/templates/dashboard/product/detail.html:110
+#: ../svcishop/templates/dashboard/product/product_type.html:14
+#: ../svcishop/templates/dashboard/product/variant.html:14
+#: ../svcishop/templates/dashboard/site/shipping_method.html:14
+#: ../svcishop/templates/dashboard/site/site_menu.html:14
+#: ../svcishop/templates/dashboard/site/site_page.html:13
+#: ../svcishop/templates/dashboard/user/detail.html:31
+#: ../svcishop/templates/dashboard/user/detail.html:67
+#: ../svcishop/templates/public/style_guide.html:791
+msgid "Edit"
+msgstr ""
+
+#: ../svcishop/templates/account/details.html:135
+#: ../svcishop/templates/public/style_guide.html:802
+msgid "Remove Address"
+msgstr ""
+
+#: ../svcishop/templates/account/details.html:138
+#: ../svcishop/templates/public/style_guide.html:805
+msgid "Cancel"
+msgstr ""
+
+#: ../svcishop/templates/account/details.html:148
+msgid "New Address"
+msgstr ""
+
+#: ../svcishop/templates/account/login.html:10
+msgid "Don't have an account yet?"
+msgstr ""
+
+#: ../svcishop/templates/account/reser_passwd_mail.html:42
+msgid "You reset your password"
+msgstr ""
+
+#: ../svcishop/templates/account/reser_passwd_mail.html:46
+msgid ""
+"We cannot simply send you your old password. A unique\n"
+"                                            password has been generated "
+"for you. Change the password after logging in."
+msgstr ""
+
+#: ../svcishop/templates/account/signup.html:10
+msgid "Already have an account?"
+msgstr ""
+
+#: ../svcishop/templates/account/signup.html:20
+#: ../svcishop/templates/account/signup.html:28
+msgid "Create an account"
+msgstr ""
+
+#: ../svcishop/templates/account/partials/login_form.html:21
+msgid "Forgot password?"
+msgstr ""
+
+#: ../svcishop/templates/checkout/_subtotal_table.html:5
+#: ../svcishop/templates/public/cart_dropdown.html:31
+msgid "Shipment calculated at checkout"
+msgstr ""
+
+#: ../svcishop/templates/checkout/cart.html:3
+msgid "Your cart"
+msgstr ""
+
+#: ../svcishop/templates/checkout/cart.html:8
+msgid "Cart"
+msgstr ""
+
+#: ../svcishop/templates/checkout/cart.html:15
+msgid "Product has been removed from cart"
+msgstr ""
+
+#: ../svcishop/templates/checkout/cart.html:75
+#: ../svcishop/templates/checkout/details.html:3
+#: ../svcishop/templates/checkout/details.html:16
+#: ../svcishop/templates/public/cart_dropdown.html:50
+msgid "Checkout"
+msgstr ""
+
+#: ../svcishop/templates/checkout/cart.html:82
+#: ../svcishop/templates/public/cart_dropdown.html:55
+msgid "There are no products in your shopping cart."
+msgstr ""
+
+#: ../svcishop/templates/checkout/cart.html:83
+#: ../svcishop/templates/public/cart_dropdown.html:57
+msgid "Check out our sales"
+msgstr ""
+
+#: ../svcishop/templates/checkout/details.html:8
+msgid "Easy and secure!"
+msgstr ""
+
+#: ../svcishop/templates/checkout/details.html:47
+#: ../svcishop/templates/dashboard/order/detail.html:92
+#: ../svcishop/templates/orders/_ordered_items_table.html:52
+msgid "Subtotal"
+msgstr ""
+
+#: ../svcishop/templates/checkout/details.html:57
+msgid "Shipment"
+msgstr ""
+
+#: ../svcishop/templates/checkout/details.html:72
+msgid "Promo code"
+msgstr ""
+
+#: ../svcishop/templates/checkout/details.html:78
+msgid "Remove"
+msgstr ""
+
+#: ../svcishop/templates/checkout/note.html:8
+#: ../svcishop/templates/checkout/shipping.html:8
+#: ../svcishop/templates/orders/_ordered_items_table.html:117
+msgid "Shipping address"
+msgstr ""
+
+#: ../svcishop/templates/checkout/note.html:10
+msgid "Select other address"
+msgstr ""
+
+#: ../svcishop/templates/checkout/note.html:15
+msgid "Select other shipping method"
+msgstr ""
+
+#: ../svcishop/templates/checkout/shipping.html:27
+msgid "Enter a new address"
+msgstr ""
+
+#: ../svcishop/templates/checkout/shipping.html:42
+msgid "Shipping method"
+msgstr ""
+
+#: ../svcishop/templates/checkout/shipping.html:60
+msgid "Continue"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/index.html:17
+msgid "Sales"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/index.html:18
+msgid "today and"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/index.html:19
+msgid "total"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/index.html:29
+msgid "Members"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/index.html:30
+msgid "new in"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/index.html:31
+msgid "accounts"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/index.html:43
+msgid "Orders are ready to fulfill"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/index.html:49
+msgid "Payments to capture"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/index.html:55
+msgid "products is on sale"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/index.html:64
+msgid "Top Products"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/index.html:82
+msgid "Ordered"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/index.html:98
+msgid "Activity"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/index.html:105
+msgid "was"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/index.html:110
+msgid "There is no recent activity"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/layout.html:25
+msgid "Front Site"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/discount/sale.html:13
+#: ../svcishop/templates/dashboard/discount/voucher.html:14
+#: ../svcishop/templates/dashboard/list.html:25
+#: ../svcishop/templates/dashboard/product/attribute.html:14
+#: ../svcishop/templates/dashboard/product/category.html:14
+#: ../svcishop/templates/dashboard/product/collection.html:14
+#: ../svcishop/templates/dashboard/product/detail.html:87
+#: ../svcishop/templates/dashboard/product/list.html:45
+#: ../svcishop/templates/dashboard/product/product_type.html:14
+#: ../svcishop/templates/dashboard/product/variant.html:14
+#: ../svcishop/templates/dashboard/site/shipping_method.html:14
+#: ../svcishop/templates/dashboard/site/site_menu.html:14
+#: ../svcishop/templates/dashboard/site/site_page.html:14
+msgid "Create"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/list.html:36
+#: ../svcishop/templates/dashboard/order/list.html:44
+#: ../svcishop/templates/dashboard/product/detail.html:99
+#: ../svcishop/templates/dashboard/product/list.html:58
+#: ../svcishop/templates/dashboard/site/plugin.html:17
+#: ../svcishop/templates/dashboard/user/detail.html:58
+#: ../svcishop/templates/dashboard/user/detail.html:84
+#: ../svcishop/templates/dashboard/user/list.html:35
+msgid "Operation"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/list.html:47
+#: ../svcishop/templates/dashboard/product/detail.html:18
+#: ../svcishop/templates/dashboard/product/detail.html:112
+#: ../svcishop/templates/dashboard/user/detail.html:33
+msgid "Delete"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/order/detail.html:23
+msgid "Payment Status"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/order/detail.html:24
+msgid "Payment Due"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/order/detail.html:29
+msgid "Shipping Address"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/order/detail.html:49
+msgid "Qty"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/order/detail.html:52
+msgid "Unit Price"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/order/detail.html:53
+msgid "Subtotal)"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/order/detail.html:81
+msgid "Payment Method"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/order/detail.html:82
+msgid "Order Note"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/order/detail.html:96
+#: ../svcishop/templates/orders/_ordered_items_table.html:69
+msgid "Shipping"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/order/detail.html:101
+msgid "Discount"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/order/detail.html:121
+msgid "Send Order"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/order/detail.html:126
+msgid "Draft Order"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/order/list.html:10
+msgid "Order List"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/order/list.html:24
+msgid "Order No."
+msgstr ""
+
+#: ../svcishop/templates/dashboard/order/list.html:31
+#: ../svcishop/templates/dashboard/product/list.html:41
+msgid "Query"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/order/list.html:53
+#: ../svcishop/templates/dashboard/product/list.html:67
+#: ../svcishop/templates/dashboard/user/detail.html:92
+#: ../svcishop/templates/dashboard/user/list.html:44
+msgid "View"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/product/detail.html:62
+msgid "Created"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/product/detail.html:68
+msgid "Product Description"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/product/detail.html:83
+msgid "Variants"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/product/detail.html:98
+msgid "PriceOverride"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/product/list.html:12
+msgid "Product List "
+msgstr ""
+
+#: ../svcishop/templates/dashboard/product/list.html:20
+msgid "Yes"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/product/list.html:21
+msgid "No"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/product/product_create_step1.html:14
+msgid "Create Product Step First"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/product/product_create_step2.html:12
+msgid "Create Product Step 2"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/product/product_edit.html:14
+msgid "Edit Product"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/product/variant.html:15
+msgid "Variant"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/dashboard_menu.html:14
+msgid "Create Dashboard Menu"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/index.html:7
+msgid "Product Settings"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/index.html:14
+msgid "Attributes"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/index.html:16
+msgid "Determine attributes used to create product types"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/index.html:29
+msgid "Define types of products you sell"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/index.html:40
+msgid "Shipping Methods"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/index.html:42
+msgid "Manage how you ship out orders"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/index.html:57
+msgid "Pages"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/index.html:59
+msgid "Manage and add additional pages"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/index.html:70
+msgid "Navigations"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/index.html:72
+msgid "Define how users can navigate through your store"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/index.html:83
+msgid "Dashboard Navigations"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/index.html:85
+msgid "Define how managers can navigate dashboard"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/index.html:96
+msgid "Plugins"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/index.html:98
+msgid "View and update your plugins and their settings."
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/index.html:109
+msgid "Sites Settings"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/index.html:111
+msgid "View and update your site settings"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/plugin.html:9
+msgid "Manage Plugins"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/plugin.html:15
+msgid "Plugin"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/plugin.html:16
+msgid "Info"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/plugin.html:32
+msgid "Disable"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/plugin.html:37
+msgid "Enable"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/settings.html:13
+msgid "Site Settings"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/settings.html:29
+msgid "Save"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/site/site_menu.html:14
+msgid "Site Menu"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/user/detail.html:45
+msgid "Addresses"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/user/detail.html:46
+msgid "Orders"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/user/detail.html:72
+msgid "This user have not add address"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/user/detail.html:99
+msgid "This user have not create orders"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/user/edit.html:13
+msgid "Edit User"
+msgstr ""
+
+#: ../svcishop/templates/dashboard/user/edit_addr.html:13
+msgid "Edit User Address"
+msgstr ""
+
+#: ../svcishop/templates/errors/404.html:4
+msgid "Page Not Found"
+msgstr ""
+
+#: ../svcishop/templates/errors/404.html:10
+msgid "Sorry, that page doesn't exist."
+msgstr ""
+
+#: ../svcishop/templates/errors/404.html:11
+msgid "Want to"
+msgstr ""
+
+#: ../svcishop/templates/errors/404.html:11
+msgid "go home"
+msgstr ""
+
+#: ../svcishop/templates/errors/404.html:11
+msgid "instead"
+msgstr ""
+
+#: ../svcishop/templates/orders/_ordered_items_table.html:124
+msgid "Please pay before 00:30, else the order will auto closed"
+msgstr ""
+
+#: ../svcishop/templates/orders/_ordered_items_table.html:126
+msgid "Alipay"
+msgstr ""
+
+#: ../svcishop/templates/orders/_ordered_items_table.html:129
+msgid "Pay for test"
+msgstr ""
+
+#: ../svcishop/templates/orders/_ordered_items_table.html:132
+msgid "Cancel Order"
+msgstr ""
+
+#: ../svcishop/templates/orders/_ordered_items_table.html:137
+msgid "this order will auto received after 1 day"
+msgstr ""
+
+#: ../svcishop/templates/orders/_ordered_items_table.html:139
+msgid "Confirm receipt"
+msgstr ""
+
+#: ../svcishop/templates/orders/checkout_success.html:14
+msgid "Thank you for your"
+msgstr ""
+
+#: ../svcishop/templates/orders/checkout_success.html:14
+msgid "order"
+msgstr ""
+
+#: ../svcishop/templates/orders/checkout_success.html:18
+msgid "We've sent a confirmation email with details to"
+msgstr ""
+
+#: ../svcishop/templates/orders/checkout_success.html:19
+msgid "In case of any problems or questions please contact us"
+msgstr ""
+
+#: ../svcishop/templates/orders/checkout_success.html:26
+msgid "Continue shopping"
+msgstr ""
+
+#: ../svcishop/templates/orders/details.html:36
+msgid "Order Status"
+msgstr ""
+
+#: ../svcishop/templates/orders/details.html:41
+msgid "Your note"
+msgstr ""
+
+#: ../svcishop/templates/products/_filters.html:64
+msgid "Clear filters"
+msgstr ""
+
+#: ../svcishop/templates/products/_filters.html:68
+msgid "Update"
+msgstr ""
+
+#: ../svcishop/templates/products/details.html:102
+msgid "Please choose a variant!"
+msgstr ""
+
+#: ../svcishop/templates/products/details.html:119
+msgid "Add to cart"
+msgstr ""
+
+#: ../svcishop/templates/products/details.html:131
+msgid "This product is currently"
+msgstr ""
+
+#: ../svcishop/templates/products/details.html:131
+msgid "unavailable"
+msgstr ""
+
+#: ../svcishop/templates/products/product_list_base.html:45
+#: ../svcishop/templates/public/style_guide.html:417
+msgid "Filters"
+msgstr ""
+
+#: ../svcishop/templates/products/product_list_base.html:53
+#: ../svcishop/templates/products/product_list_base.html:55
+#: ../svcishop/templates/products/product_list_base.html:72
+msgid "Sort by"
+msgstr ""
+
+#: ../svcishop/templates/products/product_list_base.html:78
+msgid "ascending"
+msgstr ""
+
+#: ../svcishop/templates/products/product_list_base.html:85
+msgid "descending"
+msgstr ""
+
+#: ../svcishop/templates/products/product_list_base.html:119
+#: ../svcishop/templates/public/search_result.html:23
+msgid "Sorry, no matches found for your request."
+msgstr ""
+
+#: ../svcishop/templates/products/product_list_base.html:120
+#: ../svcishop/templates/public/search_result.html:24
+msgid "Try again or shop new arrivals."
+msgstr ""
+
+#: ../svcishop/templates/public/home.html:11
+msgid "Promo & Sale"
+msgstr ""
+
+#: ../svcishop/templates/public/home.html:12
+msgid "from the Northpole"
+msgstr ""
+
+#: ../svcishop/templates/public/home.html:14
+#: ../svcishop/templates/public/home.html:29
+#: ../svcishop/templates/public/home.html:41
+msgid "Shop now"
+msgstr ""
+
+#: ../svcishop/templates/public/home.html:28
+msgid "Size & Colours"
+msgstr ""
+
+#: ../svcishop/templates/public/home.html:40
+msgid "Digital Downloads"
+msgstr ""
+
+#: ../svcishop/templates/public/home.html:50
+msgid "Featured products"
+msgstr ""
+
+#: ../svcishop/templates/public/page.html:27
+msgid "Warning!"
+msgstr ""
+
+#: ../svcishop/templates/public/page.html:28
+msgid "You are previewing a page that is not visible."
+msgstr ""
+
+#: ../svcishop/templates/public/search_result.html:3
+msgid "Search results"
+msgstr ""
+
+#: ../svcishop/templates/public/search_result.html:21
+msgid "Search"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:13
+msgid "Style guide"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:23
+#: ../svcishop/templates/public/style_guide.html:45
+msgid "Typography"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:24
+#: ../svcishop/templates/public/style_guide.html:80
+msgid "Colors"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:25
+msgid "Grid"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:26
+#: ../svcishop/templates/public/style_guide.html:198
+msgid "Responsive breakpoints"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:27
+msgid "Helper classes"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:28
+#: ../svcishop/templates/public/style_guide.html:334
+msgid "Icons"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:29
+msgid "Buttons"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:30
+#: ../svcishop/templates/public/style_guide.html:395
+msgid "Forms"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:31
+#: ../svcishop/templates/public/style_guide.html:588
+msgid "Pagination"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:32
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:33
+#: ../svcishop/templates/public/style_guide.html:624
+msgid "Notifications"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:34
+#: ../svcishop/templates/public/style_guide.html:644
+msgid "Main navigation"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:35
+msgid "Tabs"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:36
+msgid "Tables"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:37
+msgid "Cards"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:38
+msgid "Product items"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:39
+#: ../svcishop/templates/public/style_guide.html:852
+msgid "Product gallery"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:47
+msgid "We use Lato fontface in Regular(400),"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:48
+msgid "and"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:48
+msgid "Bold(700)"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:48
+msgid "weights"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:49
+msgid ""
+"Lato includes only latin and latin extended characters. For other "
+"alphabets the default sans serif font\n"
+"              will be used."
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:52
+#: ../svcishop/templates/public/style_guide.html:708
+#: ../svcishop/templates/public/style_guide.html:775
+#: ../svcishop/templates/public/style_guide.html:817
+msgid ""
+"Click and edit any text below to see how the component looks with "
+"different text"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:53
+msgid "Headers"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:57
+msgid "H1 example text"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:58
+msgid "H2 example text"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:59
+msgid "H3 example text (always uppercased)"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:62
+msgid "Paragraph"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:65
+msgid ""
+"Saleor is open and free to use. It is not a bait to force you to pay us "
+"later and\n"
+"              we promise to do our bests to fix bugs and improve the "
+"code. Some situations however call for a custom\n"
+"              solution and extra code to be written. Whether you need us "
+"to cover an exotic use case or build you a\n"
+"              custom e-commerce appliance, our team can help."
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:71
+msgid "Links"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:74
+msgid "Link example text"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:75
+msgid "Styled link example text"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:154
+msgid "We use"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:155
+msgid ""
+"responsive grid which is based on a 12 column layout. In most cases we "
+"use following combinations"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:206
+msgid "Max container width"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:209
+msgid "Class prefix"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:216
+msgid "Extra small"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:219
+msgid "None (auto)"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:229
+msgid "Small"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:242
+msgid "Medium"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:255
+msgid "Large"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:268
+msgid "Extra large"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:283
+msgid "Storefront templates built with"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:285
+msgid "framework wich has handful utility classes"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:286
+msgid "Responsive floats"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:291
+msgid "Float left on all viewport sizes"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:297
+msgid "Float right on all viewport sizes"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:303
+msgid "Don't float on all viewport sizes"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:309
+msgid "Float left on viewports sized SM (small) or wider"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:315
+msgid "Float right on viewports sized MD (medium) or wider"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:321
+msgid "Responsive utilities"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:324
+msgid ""
+"The <code>.hidden-*-up</code> classes hide the element when the viewport "
+"is at the given breakpoint or\n"
+"              wider. For example, <code>.hidden-md-up</code> hides an "
+"element on medium, large, and extra-large\n"
+"              viewports."
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:327
+msgid ""
+"The <code>.hidden-*-down</code> classes hide the element when the "
+"viewport is at the given breakpoint or\n"
+"              smaller. For example, <code>.hidden-md-down</code> hides an"
+" element on extra-small, small, and medium\n"
+"              viewports."
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:351
+msgid ""
+"Click and edit any button below to see how the component looks with "
+"different text"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:355
+msgid "Primary Button (buttons can be really very wide)"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:358
+msgid "Secondary Button"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:361
+msgid "Danger Button"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:364
+msgid "Disabled Button"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:367
+msgid "Gray Button"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:370
+msgid "Primary Narrow Button"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:373
+msgid "Secondary Narrow Button"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:376
+msgid "Danger Narrow Button"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:384
+msgid "Home page button"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:396
+msgid "Text form"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:402
+msgid "Given name"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:409
+msgid "Family name"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:424
+msgid "Box Size"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:431
+#: ../svcishop/templates/public/style_guide.html:527
+msgid "100g"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:433
+#: ../svcishop/templates/public/style_guide.html:530
+msgid "250g"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:435
+msgid "500g"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:436
+msgid "Feel free to place here as long option as you want"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:445
+msgid "Select"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:452
+#: ../svcishop/templates/public/style_guide.html:453
+#: ../svcishop/templates/public/style_guide.html:454
+#: ../svcishop/templates/public/style_guide.html:455
+msgid "Option"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:462
+msgid "Number input"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:476
+msgid "Radio buttons"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:484
+#: ../svcishop/templates/public/style_guide.html:559
+msgid "First option"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:490
+#: ../svcishop/templates/public/style_guide.html:533
+#: ../svcishop/templates/public/style_guide.html:565
+msgid "Feel free to place here as long text as you want"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:497
+msgid "Input groups"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:516
+msgid "Use"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:522
+msgid "Variant picker"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:537
+msgid "Errors"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:538
+msgid ""
+"Errors are always displayed as a small red text below the form explaining"
+" what cause the error."
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:548
+#: ../svcishop/templates/public/style_guide.html:569
+msgid "This field is required"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:555
+msgid "Radio form"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:580
+msgid "Only 32 remaining in stock"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:589
+#: ../svcishop/templates/public/style_guide.html:602
+#: ../svcishop/templates/public/style_guide.html:625
+#: ../svcishop/templates/public/style_guide.html:645
+msgid ""
+"Click and edit any item below to see how the component looks with "
+"different text"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:630
+msgid "This is Success alert"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:634
+msgid "This is Danger alert"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:638
+msgid ""
+"This is Warning alert. Notifications content is not limited with "
+"container width. Place here as many information as you want or need to"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:662
+msgid "Tabs navigation"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:740
+msgid "Payment pending"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:761
+msgid "Fully paid"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:782
+msgid "Mr. Walter C. Brown"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:783
+msgid "49 Featherstone Street"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:784
+msgid "London, EC1Y 8SY"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:786
+msgid "United Kingdom"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:825
+#: ../svcishop/templates/public/style_guide.html:836
+msgid "Johnson-Brown"
+msgstr ""
+
+#: ../svcishop/templates/public/style_guide.html:843
+msgid "FROM"
+msgstr ""
+
+#: ../plugin_example/conversations/forms.py:14
+msgid "Recipient"
+msgstr ""
+
+#: ../plugin_example/conversations/forms.py:14
+msgid "A valid username is required."
+msgstr ""
+
+#: ../plugin_example/conversations/forms.py:18
+#: ../plugin_example/conversations/templates/conversation.html:252
+msgid "Subject"
+msgstr ""
+
+#: ../plugin_example/conversations/forms.py:18
+msgid "A Subject is required."
+msgstr ""
+
+#: ../plugin_example/conversations/forms.py:22
+#: ../plugin_example/conversations/forms.py:53
+msgid "Message"
+msgstr ""
+
+#: ../plugin_example/conversations/forms.py:22
+#: ../plugin_example/conversations/forms.py:53
+msgid "A message is required."
+msgstr ""
+
+#: ../plugin_example/conversations/forms.py:28
+msgid "The username you entered does not exist."
+msgstr ""
+
+#: ../plugin_example/conversations/forms.py:30
+msgid "You cannot send a PM to yourself."
+msgstr ""
+
+#: ../plugin_example/conversations/views.py:34
+msgid ""
+"You cannot send any messages anymore because you have reached your "
+"message limit."
+msgstr ""
+
+#: ../plugin_example/conversations/templates/message_form.html:3
+#: ../plugin_example/conversations/views.py:145
+msgid "Compose Message"
+msgstr ""
+
+#: ../plugin_example/conversations/views.py:177
+msgid "Message sent."
+msgstr ""
+
+#: ../plugin_example/conversations/templates/_inject_navlink.html:7
+#: ../plugin_example/conversations/templates/_inject_navlink.html:18
+#: ../plugin_example/conversations/templates/inbox.html:3
+msgid "Inbox"
+msgstr ""
+
+#: ../plugin_example/conversations/templates/_inject_navlink.html:15
+msgid "No unread messages."
+msgstr ""
+
+#: ../plugin_example/conversations/templates/_inject_navlink.html:19
+#: ../plugin_example/conversations/templates/message_layout.html:20
+msgid "New Message"
+msgstr ""
+
+#: ../plugin_example/conversations/templates/conversation.html:304
+msgid "Send"
+msgstr ""
+
+#: ../plugin_example/conversations/templates/conversation_list.html:14
+msgid "Conversations"
+msgstr ""
+
+#: ../plugin_example/conversations/templates/conversation_list.html:52
+#: ../plugin_example/conversations/templates/conversation_list.html:59
+msgid "Deleted User"
+msgstr ""
+
+#: ../plugin_example/conversations/templates/conversation_list.html:73
+msgid "trash"
+msgstr ""
+
+#: ../plugin_example/conversations/templates/conversation_list.html:82
+msgid "delete"
+msgstr ""
+
+#: ../plugin_example/conversations/templates/conversation_list.html:91
+msgid "restore"
+msgstr ""
+
+#: ../plugin_example/conversations/templates/conversation_list.html:98
+msgid "edit"
+msgstr ""
+
+#: ../plugin_example/conversations/templates/conversation_list.html:108
+msgid "No conversations found."
+msgstr ""
+
+#: ../plugin_example/conversations/templates/message_layout.html:10
+msgid "Private Message"
+msgstr ""
+
+#: ../plugin_example/conversations/templates/sent.html:3
+msgid "Sent Messages"
+msgstr ""
+
+#: ../plugin_example/conversations/templates/trash.html:3
+msgid "Trash"
+msgstr ""
