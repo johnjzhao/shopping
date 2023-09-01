@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    io.sunvalle.service: redis
+  name: redis
+  namespace: shopping
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.sunvalle.service: redis
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        io.sunvalle.network/shopping-default: "true"
+        io.sunvalle.service: redis
+    spec:
+      containers:
+        - image: zhaojohn96/redis
+          name: redis
+          ports:
+            - containerPort: 6379
+              hostPort: 6379
+              protocol: TCP
+          resources: {}
+          volumeMounts:
+            - mountPath: /data
+              name: redis-data
+      restartPolicy: Always
+      volumes:
+        - name: redis-data
+          persistentVolumeClaim:
+            claimName: redis-data
+status: {}

@@ -41,7 +41,7 @@ services:
       ESEARCH_URI: esearch
     restart: unless-stopped
     ports:
-        - 8080:5000
+        - 8022:5000
 
 volumes:
   db_data:

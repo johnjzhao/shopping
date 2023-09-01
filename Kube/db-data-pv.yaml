@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: db-data
+  namespace: shopping
+spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteMany
+  nfs:
+    path: /export/pvs001/db_data
+    server: 172.86.0.1
+  persistentVolumeReclaimPolicy: Retain
+

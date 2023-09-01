@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    io.sunvalle.service: esearch
+  name: esearch
+  namespace: shopping
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.sunvalle.service: esearch
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        io.sunvalle.service: esearch
+    spec:
+      containers:
+        - env:
+            - name: discovery.type
+              value: single-node
+          image: zhaojohn96/elasticsearch
+          name: esearch
+          ports:
+            - containerPort: 9200
+              hostPort: 9200
+              protocol: TCP
+            - containerPort: 9300
+              hostPort: 9300
+              protocol: TCP
+          resources: {}
+          volumeMounts:
+            - mountPath: /data
+              name: esearch-data
+      restartPolicy: Always
+      volumes:
+        - name: esearch-data
+          persistentVolumeClaim:
+            claimName: esearch-data
+status: {}
